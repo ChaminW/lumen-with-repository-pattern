@@ -12,7 +12,7 @@ use Illuminate\Database\Eloquent\Model;
 
 
 
-class Book extends Model
+class Employee extends Model
 {
-    protected $fillable = ['name', 'email', 'address'];
+    protected $fillable = ['first_name','last_name', 'contact_num', 'address'];
 }

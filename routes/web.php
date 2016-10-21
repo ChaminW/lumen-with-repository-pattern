@@ -26,24 +26,28 @@ $app->get('/', function () use ($app) {
 
 
 
-$app->get('api/user','UserController@index');
-$app->get('api/user/{id}','UserController@getUser');
-$app->post('api/user','UserController@createUser');
-$app->put('api/user/{id}','UserController@updateUser');
-$app->delete('api/user/{id}','UserController@deleteUser');
+//$app->get('api/user','UserController@index');
+//$app->get('api/user/{id}','UserController@getUser');
+//$app->post('api/user','UserController@createUser');
+//$app->put('api/user/{id}','UserController@updateUser');
+//$app->delete('api/user/{id}','UserController@deleteUser');
 
 
-//$app->group(['prefix' => 'api/v1','namespace' => 'App\Http\Controllers'], function($app) {
-//    $app->get('user', 'app\Http\Controllers\UserController@index');
-//
-//    $app->get('user/{id}', 'app\Http\Controllers\UserController@getUser');
-//
-//    $app->post('user', 'app\Http\Controllers\UserController@createUser');
-//
-//    $app->put('user/{id}', 'app\Http\Controllers\UserController@updateUser');
-//
-//    $app->delete('user/{id}', 'app\Http\Controllers\UserController@deleteUser');
-//});
+$app->group(['prefix' => 'api/user','namespace' => 'App\Http\Controllers'], function($app) {
+    $app->get('/', 'UserController@show');
+    $app->get('/{id}', 'UserController@getUser');
+    $app->post('/', 'UserController@createUser');
+    $app->put('/{id}', 'UserController@updateUser');
+    $app->delete('/{id}', 'UserController@deleteUser');
+});
+
+$app->group(['prefix' => 'api/employee','namespace' => 'App\Http\Controllers'], function($app) {
+    $app->get('/', 'EmployeeController@show');
+    $app->get('/{id}', 'EmployeeController@getEmployee');
+    $app->post('/', 'EmployeeController@createEmployee');
+    $app->put('/{id}', 'EmployeeController@updateEmployee');
+    $app->delete('/{id}', 'EmployeeController@deleteEmployee');
+});
 
 //*************************************************************************
 // dynamic routing
