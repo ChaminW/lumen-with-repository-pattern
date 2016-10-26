@@ -1,951 +1,139 @@
-[2016-10-18 04:00:09] lumen.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'Command "crve" is not defined.' in /var/www/html/lumen_test/vendor/symfony/console/Application.php:536
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('crve')
-#1 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#3 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#4 {main}  
-[2016-10-18 04:00:13] lumen.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'Command "serve" is not defined.' in /var/www/html/lumen_test/vendor/symfony/console/Application.php:536
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('serve')
-#1 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#3 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#4 {main}  
-[2016-10-18 04:00:41] lumen.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'Command "serve" is not defined.' in /var/www/html/lumen_test/vendor/symfony/console/Application.php:536
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('serve')
-#1 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#3 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#4 {main}  
-[2016-10-19 09:00:07] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'private' (T_PRIVATE)' in /var/www/html/lumen_test/routes/web.php:41
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-19 09:00:29] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: callback' in /var/www/html/lumen_test/routes/web.php:34
-Stack trace:
-#0 /var/www/html/lumen_test/routes/web.php(34): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 34, Array)
-#1 /var/www/html/lumen_test/bootstrap/app.php(97): require('/var/www/html/l...')
-#2 [internal function]: {closure}(Object(Laravel\Lumen\Application))
-#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(93): call_user_func(Object(Closure), Object(Laravel\Lumen\Application))
-#4 /var/www/html/lumen_test/bootstrap/app.php(98): Laravel\Lumen\Application->group(Array, Object(Closure))
-#5 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
-#6 {main}  
-[2016-10-19 09:01:30] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: callback' in /var/www/html/lumen_test/routes/web.php:34
-Stack trace:
-#0 /var/www/html/lumen_test/routes/web.php(34): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 34, Array)
-#1 /var/www/html/lumen_test/bootstrap/app.php(97): require('/var/www/html/l...')
-#2 [internal function]: {closure}(Object(Laravel\Lumen\Application))
-#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(93): call_user_func(Object(Closure), Object(Laravel\Lumen\Application))
-#4 /var/www/html/lumen_test/bootstrap/app.php(98): Laravel\Lumen\Application->group(Array, Object(Closure))
-#5 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
-#6 {main}  
-[2016-10-19 09:01:32] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: callback' in /var/www/html/lumen_test/routes/web.php:34
-Stack trace:
-#0 /var/www/html/lumen_test/routes/web.php(34): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 34, Array)
-#1 /var/www/html/lumen_test/bootstrap/app.php(97): require('/var/www/html/l...')
-#2 [internal function]: {closure}(Object(Laravel\Lumen\Application))
-#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(93): call_user_func(Object(Closure), Object(Laravel\Lumen\Application))
-#4 /var/www/html/lumen_test/bootstrap/app.php(98): Laravel\Lumen\Application->group(Array, Object(Closure))
-#5 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
-#6 {main}  
-[2016-10-19 09:02:04] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: callback' in /var/www/html/lumen_test/routes/web.php:35
-Stack trace:
-#0 /var/www/html/lumen_test/routes/web.php(35): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 35, Array)
-#1 /var/www/html/lumen_test/bootstrap/app.php(97): require('/var/www/html/l...')
-#2 [internal function]: {closure}(Object(Laravel\Lumen\Application))
-#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(93): call_user_func(Object(Closure), Object(Laravel\Lumen\Application))
-#4 /var/www/html/lumen_test/bootstrap/app.php(98): Laravel\Lumen\Application->group(Array, Object(Closure))
-#5 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
-#6 {main}  
-[2016-10-19 09:02:05] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: callback' in /var/www/html/lumen_test/routes/web.php:35
-Stack trace:
-#0 /var/www/html/lumen_test/routes/web.php(35): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 35, Array)
-#1 /var/www/html/lumen_test/bootstrap/app.php(97): require('/var/www/html/l...')
-#2 [internal function]: {closure}(Object(Laravel\Lumen\Application))
-#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(93): call_user_func(Object(Closure), Object(Laravel\Lumen\Application))
-#4 /var/www/html/lumen_test/bootstrap/app.php(98): Laravel\Lumen\Application->group(Array, Object(Closure))
-#5 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
-#6 {main}  
-[2016-10-19 09:18:32] lumen.ERROR: exception 'ErrorException' with message 'Undefined property: Laravel\Lumen\Http\Redirector::$http://localhost:8000/profile' in /var/www/html/lumen_test/routes/web.php:51
-Stack trace:
-#0 /var/www/html/lumen_test/routes/web.php(51): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined prope...', '/var/www/html/l...', 51, Array)
-#1 [internal function]: Closure->{closure}()
-#2 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Object(Closure), Array)
-#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(523): Illuminate\Container\Container->call(Object(Closure), Array)
-#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
-#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
-#6 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#7 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
-#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(NULL)
-#9 /var/www/html/lumen_test/public/index.php(28): Laravel\Lumen\Application->run()
-#10 {main}  
-[2016-10-19 09:27:19] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Call to undefined method Laravel\Lumen\Http\Redirector::setTargetUrl()' in /var/www/html/lumen_test/routes/web.php:51
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-19 09:43:47] lumen.ERROR: exception 'InvalidArgumentException' with message 'Auth guard driver [api] is not defined.' in /var/www/html/lumen_test/vendor/illuminate/auth/AuthManager.php:99
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/auth/AuthManager.php(70): Illuminate\Auth\AuthManager->resolve('api')
-#1 /var/www/html/lumen_test/vendor/illuminate/auth/AuthManager.php(294): Illuminate\Auth\AuthManager->guard()
-#2 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(137): Illuminate\Auth\AuthManager->__call('handle', Array)
-#3 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(137): Illuminate\Auth\AuthManager->handle(Object(Illuminate\Http\Request), Object(Closure))
-#4 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(32): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#6 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(104): Laravel\Lumen\Routing\Pipeline->Laravel\Lumen\Routing\{closure}(Object(Illuminate\Http\Request))
-#7 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(647): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(493): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
-#9 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
-#10 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#11 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
-#12 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(NULL)
-#13 /var/www/html/lumen_test/public/index.php(28): Laravel\Lumen\Application->run()
-#14 {main}  
-[2016-10-19 09:46:13] lumen.ERROR: exception 'ReflectionException' with message 'Class example does not exist' in /var/www/html/lumen_test/vendor/illuminate/container/Container.php:749
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(749): ReflectionClass->__construct('example')
-#1 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('example', Array)
-#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('example', Array)
-#3 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(127): Laravel\Lumen\Application->make('example')
-#4 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(32): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#6 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(104): Laravel\Lumen\Routing\Pipeline->Laravel\Lumen\Routing\{closure}(Object(Illuminate\Http\Request))
-#7 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(647): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(493): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
-#9 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
-#10 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#11 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
-#12 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(NULL)
-#13 /var/www/html/lumen_test/public/index.php(28): Laravel\Lumen\Application->run()
-#14 {main}  
-[2016-10-19 09:46:29] lumen.ERROR: exception 'ReflectionException' with message 'Class exampleController does not exist' in /var/www/html/lumen_test/vendor/illuminate/container/Container.php:749
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(749): ReflectionClass->__construct('exampleControll...')
-#1 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('exampleControll...', Array)
-#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('exampleControll...', Array)
-#3 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(127): Laravel\Lumen\Application->make('exampleControll...')
-#4 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(32): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#6 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(104): Laravel\Lumen\Routing\Pipeline->Laravel\Lumen\Routing\{closure}(Object(Illuminate\Http\Request))
-#7 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(647): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(493): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
-#9 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
-#10 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#11 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
-#12 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(NULL)
-#13 /var/www/html/lumen_test/public/index.php(28): Laravel\Lumen\Application->run()
-#14 {main}  
-[2016-10-19 09:46:55] lumen.ERROR: exception 'ReflectionException' with message 'Class exampleMiddeleware does not exist' in /var/www/html/lumen_test/vendor/illuminate/container/Container.php:749
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(749): ReflectionClass->__construct('exampleMiddelew...')
-#1 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('exampleMiddelew...', Array)
-#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('exampleMiddelew...', Array)
-#3 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(127): Laravel\Lumen\Application->make('exampleMiddelew...')
-#4 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(32): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#6 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(104): Laravel\Lumen\Routing\Pipeline->Laravel\Lumen\Routing\{closure}(Object(Illuminate\Http\Request))
-#7 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(647): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(493): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
-#9 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
-#10 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#11 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
-#12 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(NULL)
-#13 /var/www/html/lumen_test/public/index.php(28): Laravel\Lumen\Application->run()
-#14 {main}  
-[2016-10-19 09:47:27] lumen.ERROR: exception 'ReflectionException' with message 'Class ExampleMiddleware does not exist' in /var/www/html/lumen_test/vendor/illuminate/container/Container.php:749
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(749): ReflectionClass->__construct('ExampleMiddlewa...')
-#1 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('ExampleMiddlewa...', Array)
-#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('ExampleMiddlewa...', Array)
-#3 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(127): Laravel\Lumen\Application->make('ExampleMiddlewa...')
-#4 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(32): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
-#6 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(104): Laravel\Lumen\Routing\Pipeline->Laravel\Lumen\Routing\{closure}(Object(Illuminate\Http\Request))
-#7 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(647): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(493): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
-#9 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
-#10 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#11 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
-#12 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(NULL)
-#13 /var/www/html/lumen_test/public/index.php(28): Laravel\Lumen\Application->run()
-#14 {main}  
-[2016-10-19 10:01:37] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ''account URI of account\'.$acc' (T_ENCAPSED_AND_WHITESPACE)' in /var/www/html/lumen_test/routes/web.php:84
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-19 11:33:43] lumen.ERROR: exception 'Symfony\Component\Console\Exception\RuntimeException' with message 'Too many arguments, expected arguments "command" "name".' in /var/www/html/lumen_test/vendor/symfony/console/Input/ArgvInput.php:184
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/symfony/console/Input/ArgvInput.php(88): Symfony\Component\Console\Input\ArgvInput->parseArgument('_user_table')
-#1 /var/www/html/lumen_test/vendor/symfony/console/Input/Input.php(62): Symfony\Component\Console\Input\ArgvInput->parse()
-#2 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(221): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
-#3 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#4 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#5 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateMakeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#6 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#7 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#8 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#9 {main}  
-[2016-10-19 11:34:09] lumen.ERROR: exception 'Symfony\Component\Console\Exception\RuntimeException' with message 'The "-c" option does not exist.' in /var/www/html/lumen_test/vendor/symfony/console/Input/ArgvInput.php:126
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/symfony/console/Input/ArgvInput.php(107): Symfony\Component\Console\Input\ArgvInput->parseShortOptionSet('create=tables')
-#1 /var/www/html/lumen_test/vendor/symfony/console/Input/ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseShortOption('-create=tables')
-#2 /var/www/html/lumen_test/vendor/symfony/console/Input/Input.php(62): Symfony\Component\Console\Input\ArgvInput->parse()
-#3 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(221): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
-#4 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#5 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#6 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateMakeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#7 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#9 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#10 {main}  
-[2016-10-19 11:39:00] lumen.ERROR: exception 'InvalidArgumentException' with message 'A CreateUserTable migration already exists.' in /var/www/html/lumen_test/vendor/illuminate/database/Migrations/MigrationCreator.php:76
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/MigrationCreator.php(49): Illuminate\Database\Migrations\MigrationCreator->ensureMigrationDoesntAlreadyExist('create_user_tab...')
-#1 /var/www/html/lumen_test/vendor/illuminate/database/Console/Migrations/MigrateMakeCommand.php(98): Illuminate\Database\Migrations\MigrationCreator->create('create_user_tab...', '/var/www/html/l...', 'users', true)
-#2 /var/www/html/lumen_test/vendor/illuminate/database/Console/Migrations/MigrateMakeCommand.php(81): Illuminate\Database\Console\Migrations\MigrateMakeCommand->writeMigration('create_user_tab...', 'users', true)
-#3 [internal function]: Illuminate\Database\Console\Migrations\MigrateMakeCommand->fire()
-#4 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
-#5 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
-#6 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#7 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#8 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#9 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateMakeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#10 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#11 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#12 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#13 {main}  
-[2016-10-19 11:39:20] lumen.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'There are no commands defined in the "remove" namespace.' in /var/www/html/lumen_test/vendor/symfony/console/Application.php:490
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/symfony/console/Application.php(522): Symfony\Component\Console\Application->findNamespace('remove')
-#1 /var/www/html/lumen_test/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('remove:migratio...')
-#2 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#4 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#5 {main}  
-[2016-10-19 11:40:36] lumen.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'There are no commands defined in the "remove" namespace.' in /var/www/html/lumen_test/vendor/symfony/console/Application.php:490
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/symfony/console/Application.php(522): Symfony\Component\Console\Application->findNamespace('remove')
-#1 /var/www/html/lumen_test/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('remove:migratio...')
-#2 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#4 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#5 {main}  
-[2016-10-19 11:40:43] lumen.ERROR: exception 'ErrorException' with message 'include(/var/www/html/lumen_test/vendor/composer/../../database/migrations/2016_10_19_113704_create_user_table.php): failed to open stream: No such file or directory' in /var/www/html/lumen_test/vendor/composer/ClassLoader.php:412
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/composer/ClassLoader.php(412): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'include(/var/ww...', '/var/www/html/l...', 412, Array)
-#1 /var/www/html/lumen_test/vendor/composer/ClassLoader.php(412): Composer\Autoload\includeFile()
-#2 /var/www/html/lumen_test/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/var/www/html/l...')
-#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('CreateUserTable')
-#4 [internal function]: spl_autoload_call('CreateUserTable')
-#5 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/MigrationCreator.php(75): class_exists('CreateUserTable')
-#6 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/MigrationCreator.php(49): Illuminate\Database\Migrations\MigrationCreator->ensureMigrationDoesntAlreadyExist('create_user_tab...')
-#7 /var/www/html/lumen_test/vendor/illuminate/database/Console/Migrations/MigrateMakeCommand.php(98): Illuminate\Database\Migrations\MigrationCreator->create('create_user_tab...', '/var/www/html/l...', 'users', true)
-#8 /var/www/html/lumen_test/vendor/illuminate/database/Console/Migrations/MigrateMakeCommand.php(81): Illuminate\Database\Console\Migrations\MigrateMakeCommand->writeMigration('create_user_tab...', 'users', true)
-#9 [internal function]: Illuminate\Database\Console\Migrations\MigrateMakeCommand->fire()
-#10 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
-#11 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
-#12 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#13 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#14 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#15 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateMakeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#16 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#17 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#18 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#19 {main}  
-[2016-10-19 11:43:03] lumen.ERROR: exception 'ErrorException' with message 'include(/var/www/html/lumen_test/vendor/composer/../../database/migrations/2016_10_19_113704_create_user_table.php): failed to open stream: No such file or directory' in /var/www/html/lumen_test/vendor/composer/ClassLoader.php:412
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/composer/ClassLoader.php(412): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'include(/var/ww...', '/var/www/html/l...', 412, Array)
-#1 /var/www/html/lumen_test/vendor/composer/ClassLoader.php(412): Composer\Autoload\includeFile()
-#2 /var/www/html/lumen_test/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/var/www/html/l...')
-#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('CreateUserTable')
-#4 [internal function]: spl_autoload_call('CreateUserTable')
-#5 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/MigrationCreator.php(75): class_exists('CreateUserTable')
-#6 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/MigrationCreator.php(49): Illuminate\Database\Migrations\MigrationCreator->ensureMigrationDoesntAlreadyExist('create_user_tab...')
-#7 /var/www/html/lumen_test/vendor/illuminate/database/Console/Migrations/MigrateMakeCommand.php(98): Illuminate\Database\Migrations\MigrationCreator->create('create_user_tab...', '/var/www/html/l...', 'tables', true)
-#8 /var/www/html/lumen_test/vendor/illuminate/database/Console/Migrations/MigrateMakeCommand.php(81): Illuminate\Database\Console\Migrations\MigrateMakeCommand->writeMigration('create_user_tab...', 'tables', true)
-#9 [internal function]: Illuminate\Database\Console\Migrations\MigrateMakeCommand->fire()
-#10 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
-#11 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
-#12 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#13 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#14 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#15 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateMakeCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#16 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#17 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#18 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#19 {main}  
-[2016-10-19 12:57:03] lumen.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'There are no commands defined in the "migration" namespace.
+[2016-10-25 08:01:12] lumen.INFO: Getting Employee: {"id":1,"first_name":"chamin","last_name":"wick","contact_num":"0710483818","address":"sagarika.baduraliya","created_at":null,"updated_at":null}  
+[2016-10-25 09:02:06] lumen.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'Command "make:command" is not defined.
 
 Did you mean this?
-    migrate' in /var/www/html/lumen_test/vendor/symfony/console/Application.php:490
+    make:migration' in /var/www/html/lumen_test/vendor/symfony/console/Application.php:536
 Stack trace:
-#0 /var/www/html/lumen_test/vendor/symfony/console/Application.php(522): Symfony\Component\Console\Application->findNamespace('migration')
-#1 /var/www/html/lumen_test/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('migration:insst...')
-#2 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#4 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#5 {main}  
-[2016-10-19 12:57:12] lumen.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'Command "migrate:insstall" is not defined.
-
-Did you mean one of these?
-    migrate:install
-    migrate:status
-    migrate:refresh
-    migrate:rollback
-    migrate
-    migrate:reset' in /var/www/html/lumen_test/vendor/symfony/console/Application.php:536
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('migrate:insstal...')
+#0 /var/www/html/lumen_test/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('make:command')
 #1 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #3 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #4 {main}  
-[2016-10-19 12:57:20] lumen.ERROR: exception 'PDOException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'migrations' already exists' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:480
+[2016-10-25 09:34:14] lumen.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'There are no commands defined in the "custom" namespace.' in /var/www/html/lumen_test/vendor/symfony/console/Application.php:490
 Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(480): PDOStatement->execute()
-#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(754): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'create table `m...', Array)
-#2 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('create table `m...', Array, Object(Closure))
-#3 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(481): Illuminate\Database\Connection->run('create table `m...', Array, Object(Closure))
-#4 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Blueprint.php(83): Illuminate\Database\Connection->statement('create table `m...')
-#5 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(229): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
-#6 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(148): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
-#7 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/DatabaseMigrationRepository.php(142): Illuminate\Database\Schema\Builder->create('migrations', Object(Closure))
-#8 /var/www/html/lumen_test/vendor/illuminate/database/Console/Migrations/InstallCommand.php(54): Illuminate\Database\Migrations\DatabaseMigrationRepository->createRepository()
-#9 [internal function]: Illuminate\Database\Console\Migrations\InstallCommand->fire()
-#10 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
-#11 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
-#12 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#13 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#14 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#15 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#16 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#17 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#18 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#19 {main}
-
-Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'migrations' already exists (SQL: create table `migrations` (`migration` varchar(255) not null, `batch` int not null) default character set utf8 collate utf8_unicode_ci)' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:761
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('create table `m...', Array, Object(Closure))
-#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(481): Illuminate\Database\Connection->run('create table `m...', Array, Object(Closure))
-#2 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Blueprint.php(83): Illuminate\Database\Connection->statement('create table `m...')
-#3 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(229): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
-#4 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(148): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
-#5 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/DatabaseMigrationRepository.php(142): Illuminate\Database\Schema\Builder->create('migrations', Object(Closure))
-#6 /var/www/html/lumen_test/vendor/illuminate/database/Console/Migrations/InstallCommand.php(54): Illuminate\Database\Migrations\DatabaseMigrationRepository->createRepository()
-#7 [internal function]: Illuminate\Database\Console\Migrations\InstallCommand->fire()
-#8 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
-#9 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
-#10 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#11 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#12 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#13 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#14 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#15 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#16 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#17 {main}  
-[2016-10-19 12:57:36] lumen.ERROR: exception 'PDOException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'migrations' already exists' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:480
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(480): PDOStatement->execute()
-#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(754): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'create table `m...', Array)
-#2 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('create table `m...', Array, Object(Closure))
-#3 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(481): Illuminate\Database\Connection->run('create table `m...', Array, Object(Closure))
-#4 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Blueprint.php(83): Illuminate\Database\Connection->statement('create table `m...')
-#5 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(229): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
-#6 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(148): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
-#7 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/DatabaseMigrationRepository.php(142): Illuminate\Database\Schema\Builder->create('migrations', Object(Closure))
-#8 /var/www/html/lumen_test/vendor/illuminate/database/Console/Migrations/InstallCommand.php(54): Illuminate\Database\Migrations\DatabaseMigrationRepository->createRepository()
-#9 [internal function]: Illuminate\Database\Console\Migrations\InstallCommand->fire()
-#10 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
-#11 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
-#12 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#13 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#14 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#15 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#16 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#17 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#18 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#19 {main}
-
-Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'migrations' already exists (SQL: create table `migrations` (`migration` varchar(255) not null, `batch` int not null) default character set utf8 collate utf8_unicode_ci)' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:761
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('create table `m...', Array, Object(Closure))
-#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(481): Illuminate\Database\Connection->run('create table `m...', Array, Object(Closure))
-#2 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Blueprint.php(83): Illuminate\Database\Connection->statement('create table `m...')
-#3 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(229): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
-#4 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(148): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
-#5 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/DatabaseMigrationRepository.php(142): Illuminate\Database\Schema\Builder->create('migrations', Object(Closure))
-#6 /var/www/html/lumen_test/vendor/illuminate/database/Console/Migrations/InstallCommand.php(54): Illuminate\Database\Migrations\DatabaseMigrationRepository->createRepository()
-#7 [internal function]: Illuminate\Database\Console\Migrations\InstallCommand->fire()
-#8 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
-#9 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
-#10 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#11 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#12 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#13 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#14 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#15 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#16 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#17 {main}  
-[2016-10-19 13:45:45] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\App\Http\Controllers\UserController does not exist' in /var/www/html/lumen_test/vendor/illuminate/container/Container.php:749
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(749): ReflectionClass->__construct('App\\Http\\Contro...')
-#1 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
-#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
-#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(545): Laravel\Lumen\Application->make('App\\Http\\Contro...')
-#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
-#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
-#6 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
-#7 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
-#9 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(NULL)
-#10 /var/www/html/lumen_test/public/index.php(28): Laravel\Lumen\Application->run()
-#11 {main}  
-[2016-10-19 13:47:01] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\App\Http\Controllers\UserController does not exist' in /var/www/html/lumen_test/vendor/illuminate/container/Container.php:749
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(749): ReflectionClass->__construct('App\\Http\\Contro...')
-#1 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
-#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
-#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(545): Laravel\Lumen\Application->make('App\\Http\\Contro...')
-#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
-#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
-#6 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
-#7 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
-#9 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(NULL)
-#10 /var/www/html/lumen_test/public/index.php(28): Laravel\Lumen\Application->run()
-#11 {main}  
-[2016-10-19 13:47:04] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\App\Http\Controllers\UserController does not exist' in /var/www/html/lumen_test/vendor/illuminate/container/Container.php:749
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(749): ReflectionClass->__construct('App\\Http\\Contro...')
-#1 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
-#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
-#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(545): Laravel\Lumen\Application->make('App\\Http\\Contro...')
-#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
-#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
-#6 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
-#7 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
-#9 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(NULL)
-#10 /var/www/html/lumen_test/public/index.php(28): Laravel\Lumen\Application->run()
-#11 {main}  
-[2016-10-19 13:48:11] lumen.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'Command "cc" is not defined.' in /var/www/html/lumen_test/vendor/symfony/console/Application.php:536
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('cc')
-#1 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#3 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#4 {main}  
-[2016-10-19 13:48:16] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Memcached' not found' in /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php:74
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-19 13:48:20] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Memcached' not found' in /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php:74
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-19 13:48:23] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Memcached' not found' in /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php:74
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-19 13:48:52] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Memcached' not found' in /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php:74
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-19 13:49:45] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Memcached' not found' in /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php:74
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-19 13:49:52] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Memcached' not found' in /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php:74
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-19 13:49:53] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Memcached' not found' in /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php:74
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-19 13:53:19] lumen.ERROR: exception 'RuntimeException' with message 'Could not establish Memcached connection.' in /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php:108
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php(40): Illuminate\Cache\MemcachedConnector->validateConnection(Object(Memcached))
-#1 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(169): Illuminate\Cache\MemcachedConnector->connect(Array, NULL, Array, Array)
-#2 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(102): Illuminate\Cache\CacheManager->createMemcachedDriver(Array)
-#3 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(77): Illuminate\Cache\CacheManager->resolve('memcached')
-#4 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(55): Illuminate\Cache\CacheManager->get('memcached')
-#5 /var/www/html/lumen_test/vendor/illuminate/cache/Console/ClearCommand.php(55): Illuminate\Cache\CacheManager->store(NULL)
-#6 [internal function]: Illuminate\Cache\Console\ClearCommand->handle()
-#7 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
-#8 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
-#9 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#10 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#11 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#12 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Cache\Console\ClearCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#13 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#15 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#16 {main}  
-[2016-10-19 13:53:55] lumen.ERROR: exception 'RuntimeException' with message 'Could not establish Memcached connection.' in /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php:108
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php(40): Illuminate\Cache\MemcachedConnector->validateConnection(Object(Memcached))
-#1 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(169): Illuminate\Cache\MemcachedConnector->connect(Array, NULL, Array, Array)
-#2 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(102): Illuminate\Cache\CacheManager->createMemcachedDriver(Array)
-#3 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(77): Illuminate\Cache\CacheManager->resolve('memcached')
-#4 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(55): Illuminate\Cache\CacheManager->get('memcached')
-#5 /var/www/html/lumen_test/vendor/illuminate/cache/Console/ClearCommand.php(55): Illuminate\Cache\CacheManager->store(NULL)
-#6 [internal function]: Illuminate\Cache\Console\ClearCommand->handle()
-#7 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
-#8 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
-#9 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#10 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#11 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#12 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Cache\Console\ClearCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#13 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#15 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#16 {main}  
-[2016-10-19 13:53:58] lumen.ERROR: exception 'RuntimeException' with message 'Could not establish Memcached connection.' in /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php:108
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php(40): Illuminate\Cache\MemcachedConnector->validateConnection(Object(Memcached))
-#1 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(169): Illuminate\Cache\MemcachedConnector->connect(Array, NULL, Array, Array)
-#2 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(102): Illuminate\Cache\CacheManager->createMemcachedDriver(Array)
-#3 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(77): Illuminate\Cache\CacheManager->resolve('memcached')
-#4 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(55): Illuminate\Cache\CacheManager->get('memcached')
-#5 /var/www/html/lumen_test/vendor/illuminate/cache/Console/ClearCommand.php(55): Illuminate\Cache\CacheManager->store(NULL)
-#6 [internal function]: Illuminate\Cache\Console\ClearCommand->handle()
-#7 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
-#8 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
-#9 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#10 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#11 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#12 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Cache\Console\ClearCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#13 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#15 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#16 {main}  
-[2016-10-19 13:54:16] lumen.ERROR: exception 'RuntimeException' with message 'Could not establish Memcached connection.' in /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php:108
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php(40): Illuminate\Cache\MemcachedConnector->validateConnection(Object(Memcached))
-#1 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(169): Illuminate\Cache\MemcachedConnector->connect(Array, NULL, Array, Array)
-#2 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(102): Illuminate\Cache\CacheManager->createMemcachedDriver(Array)
-#3 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(77): Illuminate\Cache\CacheManager->resolve('memcached')
-#4 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(55): Illuminate\Cache\CacheManager->get('memcached')
-#5 /var/www/html/lumen_test/vendor/illuminate/cache/Console/ClearCommand.php(55): Illuminate\Cache\CacheManager->store(NULL)
-#6 [internal function]: Illuminate\Cache\Console\ClearCommand->handle()
-#7 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
-#8 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
-#9 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#10 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#11 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#12 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Cache\Console\ClearCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#13 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#15 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#16 {main}  
-[2016-10-19 14:01:51] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\App\Http\Controllers\UserController does not exist' in /var/www/html/lumen_test/vendor/illuminate/container/Container.php:749
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(749): ReflectionClass->__construct('App\\Http\\Contro...')
-#1 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
-#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
-#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(545): Laravel\Lumen\Application->make('App\\Http\\Contro...')
-#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
-#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
-#6 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
-#7 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
-#9 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(NULL)
-#10 /var/www/html/lumen_test/public/index.php(28): Laravel\Lumen\Application->run()
-#11 {main}  
-[2016-10-19 14:02:50] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\app\Http\Controllers\UserController does not exist' in /var/www/html/lumen_test/vendor/illuminate/container/Container.php:749
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(749): ReflectionClass->__construct('App\\Http\\Contro...')
-#1 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
-#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
-#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(545): Laravel\Lumen\Application->make('App\\Http\\Contro...')
-#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
-#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
-#6 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
-#7 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
-#9 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(NULL)
-#10 /var/www/html/lumen_test/public/index.php(28): Laravel\Lumen\Application->run()
-#11 {main}  
-[2016-10-19 14:03:24] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\app\Http\Controllers\UserController does not exist' in /var/www/html/lumen_test/vendor/illuminate/container/Container.php:749
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(749): ReflectionClass->__construct('App\\Http\\Contro...')
-#1 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
-#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
-#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(545): Laravel\Lumen\Application->make('App\\Http\\Contro...')
-#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
-#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
-#6 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
-#7 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
-#9 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(NULL)
-#10 /var/www/html/lumen_test/public/index.php(28): Laravel\Lumen\Application->run()
-#11 {main}  
-[2016-10-19 14:04:13] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\app\Http\Controllers\UserController does not exist' in /var/www/html/lumen_test/vendor/illuminate/container/Container.php:749
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(749): ReflectionClass->__construct('App\\Http\\Contro...')
-#1 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
-#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
-#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(545): Laravel\Lumen\Application->make('App\\Http\\Contro...')
-#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
-#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
-#6 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
-#7 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
-#9 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(NULL)
-#10 /var/www/html/lumen_test/public/index.php(28): Laravel\Lumen\Application->run()
-#11 {main}  
-[2016-10-19 14:05:02] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'app\Http\Controllers\Controller' not found' in /var/www/html/lumen_test/app/Http/Controllers/UserController.php:10
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-19 14:06:37] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'app\Http\Controllers\Controller' not found' in /var/www/html/lumen_test/app/Http/Controllers/UserController.php:10
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-19 14:10:26] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'app\Http\Controllers\Controller' not found' in /var/www/html/lumen_test/app/Http/Controllers/UserController.php:12
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-19 14:10:34] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'app\Http\Controllers\Controller' not found' in /var/www/html/lumen_test/app/Http/Controllers/UserController.php:12
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-19 14:26:50] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'app\Http\Controllers\Controller' not found' in /var/www/html/lumen_test/app/Http/Controllers/UserController.php:12
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-19 14:39:20] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'app\Http\Controllers\Controller' not found' in /var/www/html/lumen_test/app/Http/Controllers/UserController.php:12
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-19 14:40:08] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'app\Http\Controllers\Controller' not found' in /var/www/html/lumen_test/app/Http/Controllers/UserController.php:10
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-19 14:42:30] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'app\Http\Controllers\Controller' not found' in /var/www/html/lumen_test/app/Http/Controllers/UserController.php:10
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-19 14:47:01] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'app\User' not found' in /var/www/html/lumen_test/app/Http/Controllers/UserController.php:22
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-19 14:48:25] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'app\User' not found' in /var/www/html/lumen_test/app/Http/Controllers/UserController.php:22
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-19 14:50:04] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'app\User' not found' in /var/www/html/lumen_test/app/Http/Controllers/UserController.php:22
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-20 03:45:26] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'app\User' not found' in /var/www/html/lumen_test/app/Http/Controllers/UserController.php:22
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-21 03:53:52] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'app\User' not found' in /var/www/html/lumen_test/app/Http/Controllers/UserController.php:22
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-21 06:37:18] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'app\Http\Controllers\Controller' not found' in /var/www/html/lumen_test/app/Http/Controllers/UserController.php:10
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-21 06:37:42] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'app\Http\Controllers\Controller' not found' in /var/www/html/lumen_test/app/Http/Controllers/UserController.php:10
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-21 06:37:52] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'app\Http\Controllers\Controller' not found' in /var/www/html/lumen_test/app/Http/Controllers/UserController.php:10
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-21 06:38:36] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Http\Controllers\app\User' not found' in /var/www/html/lumen_test/app/Http/Controllers/UserController.php:23
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-21 06:40:42] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'app\User' not found' in /var/www/html/lumen_test/app/Http/Controllers/UserController.php:23
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
-#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
-#2 {main}  
-[2016-10-21 12:08:41] lumen.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'There are no commands defined in the "migrate:reset" namespace.
-
-Did you mean this?
-    migrate' in /var/www/html/lumen_test/vendor/symfony/console/Application.php:490
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/symfony/console/Application.php(522): Symfony\Component\Console\Application->findNamespace('migrate:reset')
-#1 /var/www/html/lumen_test/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('migrate:reset:i...')
+#0 /var/www/html/lumen_test/vendor/symfony/console/Application.php(522): Symfony\Component\Console\Application->findNamespace('custom')
+#1 /var/www/html/lumen_test/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('custom:employee...')
 #2 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #4 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #5 {main}  
-[2016-10-21 12:08:51] lumen.ERROR: exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1068 Multiple primary key defined' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:480
+[2016-10-25 10:45:19] lumen.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'There are no commands defined in the "custom" namespace.' in /var/www/html/lumen_test/vendor/symfony/console/Application.php:490
 Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(480): PDOStatement->execute()
-#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(754): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'alter table `em...', Array)
-#2 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('alter table `em...', Array, Object(Closure))
-#3 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(481): Illuminate\Database\Connection->run('alter table `em...', Array, Object(Closure))
-#4 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Blueprint.php(83): Illuminate\Database\Connection->statement('alter table `em...')
-#5 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(229): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
-#6 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(148): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
-#7 /var/www/html/lumen_test/vendor/illuminate/support/Facades/Facade.php(237): Illuminate\Database\Schema\Builder->create('employees', Object(Closure))
-#8 /var/www/html/lumen_test/database/migrations/2016_10_21_054529_create_employee_table.php(26): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
-#9 /var/www/html/lumen_test/database/migrations/2016_10_21_054529_create_employee_table.php(26): Illuminate\Support\Facades\Schema::create('employees', Object(Closure))
-#10 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(162): CreateEmployeeTable->up()
-#11 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(130): Illuminate\Database\Migrations\Migrator->runUp('/var/www/html/l...', 1, false)
-#12 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(97): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, Array)
-#13 /var/www/html/lumen_test/vendor/illuminate/database/Console/Migrations/MigrateCommand.php(66): Illuminate\Database\Migrations\Migrator->run(Array, Array)
-#14 [internal function]: Illuminate\Database\Console\Migrations\MigrateCommand->fire()
-#15 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
-#16 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
-#17 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#18 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#19 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#20 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#21 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#22 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#23 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#24 {main}
-
-Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1068 Multiple primary key defined (SQL: alter table `employees` add primary key `employees_employee_id_primary`(`employee_id`))' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:761
+#0 /var/www/html/lumen_test/vendor/symfony/console/Application.php(522): Symfony\Component\Console\Application->findNamespace('custom')
+#1 /var/www/html/lumen_test/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('custom:employee...')
+#2 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(86): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main}  
+[2016-10-25 11:18:57] lumen.ERROR: exception 'RuntimeException' with message 'Could not establish Memcached connection.' in /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php:108
 Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('alter table `em...', Array, Object(Closure))
-#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(481): Illuminate\Database\Connection->run('alter table `em...', Array, Object(Closure))
-#2 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Blueprint.php(83): Illuminate\Database\Connection->statement('alter table `em...')
-#3 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(229): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
-#4 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(148): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
-#5 /var/www/html/lumen_test/vendor/illuminate/support/Facades/Facade.php(237): Illuminate\Database\Schema\Builder->create('employees', Object(Closure))
-#6 /var/www/html/lumen_test/database/migrations/2016_10_21_054529_create_employee_table.php(26): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
-#7 /var/www/html/lumen_test/database/migrations/2016_10_21_054529_create_employee_table.php(26): Illuminate\Support\Facades\Schema::create('employees', Object(Closure))
-#8 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(162): CreateEmployeeTable->up()
-#9 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(130): Illuminate\Database\Migrations\Migrator->runUp('/var/www/html/l...', 1, false)
-#10 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(97): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, Array)
-#11 /var/www/html/lumen_test/vendor/illuminate/database/Console/Migrations/MigrateCommand.php(66): Illuminate\Database\Migrations\Migrator->run(Array, Array)
-#12 [internal function]: Illuminate\Database\Console\Migrations\MigrateCommand->fire()
-#13 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
-#14 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
-#15 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#16 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#17 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#18 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#19 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#20 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#21 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#22 {main}  
-[2016-10-21 12:08:59] lumen.ERROR: exception 'PDOException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'employees' already exists' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:480
+#0 /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php(40): Illuminate\Cache\MemcachedConnector->validateConnection(Object(Memcached))
+#1 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(169): Illuminate\Cache\MemcachedConnector->connect(Array, NULL, Array, Array)
+#2 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(102): Illuminate\Cache\CacheManager->createMemcachedDriver(Array)
+#3 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(77): Illuminate\Cache\CacheManager->resolve('memcached')
+#4 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(55): Illuminate\Cache\CacheManager->get('memcached')
+#5 /var/www/html/lumen_test/vendor/illuminate/cache/Console/ClearCommand.php(55): Illuminate\Cache\CacheManager->store(NULL)
+#6 [internal function]: Illuminate\Cache\Console\ClearCommand->handle()
+#7 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#8 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
+#9 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Cache\Console\ClearCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(86): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 {main}  
+[2016-10-25 11:19:07] lumen.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'There are no commands defined in the "custom" namespace.' in /var/www/html/lumen_test/vendor/symfony/console/Application.php:490
 Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(480): PDOStatement->execute()
-#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(754): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'create table `e...', Array)
-#2 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('create table `e...', Array, Object(Closure))
-#3 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(481): Illuminate\Database\Connection->run('create table `e...', Array, Object(Closure))
-#4 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Blueprint.php(83): Illuminate\Database\Connection->statement('create table `e...')
-#5 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(229): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
-#6 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(148): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
-#7 /var/www/html/lumen_test/vendor/illuminate/support/Facades/Facade.php(237): Illuminate\Database\Schema\Builder->create('employees', Object(Closure))
-#8 /var/www/html/lumen_test/database/migrations/2016_10_21_054529_create_employee_table.php(26): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
-#9 /var/www/html/lumen_test/database/migrations/2016_10_21_054529_create_employee_table.php(26): Illuminate\Support\Facades\Schema::create('employees', Object(Closure))
-#10 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(162): CreateEmployeeTable->up()
-#11 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(130): Illuminate\Database\Migrations\Migrator->runUp('/var/www/html/l...', 2, false)
-#12 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(97): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, Array)
-#13 /var/www/html/lumen_test/vendor/illuminate/database/Console/Migrations/MigrateCommand.php(66): Illuminate\Database\Migrations\Migrator->run(Array, Array)
-#14 [internal function]: Illuminate\Database\Console\Migrations\MigrateCommand->fire()
-#15 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
-#16 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
-#17 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#18 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#19 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#20 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#21 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#22 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#23 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#24 {main}
-
-Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'employees' already exists (SQL: create table `employees` (`employee_id` int unsigned not null auto_increment primary key, `first_name` varchar(255) not null, `last_name` varchar(255) not null, `contact_num` varchar(255) not null, `address` varchar(255) not null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8 collate utf8_unicode_ci)' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:761
+#0 /var/www/html/lumen_test/vendor/symfony/console/Application.php(522): Symfony\Component\Console\Application->findNamespace('custom')
+#1 /var/www/html/lumen_test/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('custom:employee...')
+#2 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(86): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main}  
+[2016-10-25 11:22:14] lumen.ERROR: exception 'RuntimeException' with message 'Could not establish Memcached connection.' in /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php:108
 Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('create table `e...', Array, Object(Closure))
-#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(481): Illuminate\Database\Connection->run('create table `e...', Array, Object(Closure))
-#2 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Blueprint.php(83): Illuminate\Database\Connection->statement('create table `e...')
-#3 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(229): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
-#4 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(148): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
-#5 /var/www/html/lumen_test/vendor/illuminate/support/Facades/Facade.php(237): Illuminate\Database\Schema\Builder->create('employees', Object(Closure))
-#6 /var/www/html/lumen_test/database/migrations/2016_10_21_054529_create_employee_table.php(26): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
-#7 /var/www/html/lumen_test/database/migrations/2016_10_21_054529_create_employee_table.php(26): Illuminate\Support\Facades\Schema::create('employees', Object(Closure))
-#8 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(162): CreateEmployeeTable->up()
-#9 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(130): Illuminate\Database\Migrations\Migrator->runUp('/var/www/html/l...', 2, false)
-#10 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(97): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, Array)
-#11 /var/www/html/lumen_test/vendor/illuminate/database/Console/Migrations/MigrateCommand.php(66): Illuminate\Database\Migrations\Migrator->run(Array, Array)
-#12 [internal function]: Illuminate\Database\Console\Migrations\MigrateCommand->fire()
-#13 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
-#14 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
-#15 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#16 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#17 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#18 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#19 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#20 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#21 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#22 {main}  
-[2016-10-21 12:13:20] lumen.ERROR: exception 'PDOException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'employees' already exists' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:480
+#0 /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php(40): Illuminate\Cache\MemcachedConnector->validateConnection(Object(Memcached))
+#1 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(169): Illuminate\Cache\MemcachedConnector->connect(Array, NULL, Array, Array)
+#2 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(102): Illuminate\Cache\CacheManager->createMemcachedDriver(Array)
+#3 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(77): Illuminate\Cache\CacheManager->resolve('memcached')
+#4 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(55): Illuminate\Cache\CacheManager->get('memcached')
+#5 /var/www/html/lumen_test/vendor/illuminate/cache/Console/ClearCommand.php(55): Illuminate\Cache\CacheManager->store(NULL)
+#6 [internal function]: Illuminate\Cache\Console\ClearCommand->handle()
+#7 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#8 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
+#9 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Cache\Console\ClearCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(86): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 {main}  
+[2016-10-25 11:22:17] lumen.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'There are no commands defined in the "custom" namespace.' in /var/www/html/lumen_test/vendor/symfony/console/Application.php:490
 Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(480): PDOStatement->execute()
-#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(754): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'create table `e...', Array)
-#2 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('create table `e...', Array, Object(Closure))
-#3 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(481): Illuminate\Database\Connection->run('create table `e...', Array, Object(Closure))
-#4 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Blueprint.php(83): Illuminate\Database\Connection->statement('create table `e...')
-#5 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(229): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
-#6 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(148): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
-#7 /var/www/html/lumen_test/vendor/illuminate/support/Facades/Facade.php(237): Illuminate\Database\Schema\Builder->create('employees', Object(Closure))
-#8 /var/www/html/lumen_test/database/migrations/2016_10_21_054529_create_employee_table.php(26): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
-#9 /var/www/html/lumen_test/database/migrations/2016_10_21_054529_create_employee_table.php(26): Illuminate\Support\Facades\Schema::create('employees', Object(Closure))
-#10 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(162): CreateEmployeeTable->up()
-#11 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(130): Illuminate\Database\Migrations\Migrator->runUp('/var/www/html/l...', 2, false)
-#12 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(97): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, Array)
-#13 /var/www/html/lumen_test/vendor/illuminate/database/Console/Migrations/MigrateCommand.php(66): Illuminate\Database\Migrations\Migrator->run(Array, Array)
-#14 [internal function]: Illuminate\Database\Console\Migrations\MigrateCommand->fire()
-#15 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
-#16 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
-#17 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#18 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#19 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#20 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#21 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#22 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#23 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#24 {main}
-
-Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'employees' already exists (SQL: create table `employees` (`id` int unsigned not null auto_increment primary key, `first_name` varchar(255) not null, `last_name` varchar(255) not null, `contact_num` varchar(255) not null, `address` varchar(255) not null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8 collate utf8_unicode_ci)' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:761
+#0 /var/www/html/lumen_test/vendor/symfony/console/Application.php(522): Symfony\Component\Console\Application->findNamespace('custom')
+#1 /var/www/html/lumen_test/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('custom:employee...')
+#2 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(86): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main}  
+[2016-10-25 11:26:31] lumen.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'There are no commands defined in the "custom" namespace.' in /var/www/html/lumen_test/vendor/symfony/console/Application.php:490
 Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('create table `e...', Array, Object(Closure))
-#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(481): Illuminate\Database\Connection->run('create table `e...', Array, Object(Closure))
-#2 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Blueprint.php(83): Illuminate\Database\Connection->statement('create table `e...')
-#3 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(229): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
-#4 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(148): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
-#5 /var/www/html/lumen_test/vendor/illuminate/support/Facades/Facade.php(237): Illuminate\Database\Schema\Builder->create('employees', Object(Closure))
-#6 /var/www/html/lumen_test/database/migrations/2016_10_21_054529_create_employee_table.php(26): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
-#7 /var/www/html/lumen_test/database/migrations/2016_10_21_054529_create_employee_table.php(26): Illuminate\Support\Facades\Schema::create('employees', Object(Closure))
-#8 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(162): CreateEmployeeTable->up()
-#9 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(130): Illuminate\Database\Migrations\Migrator->runUp('/var/www/html/l...', 2, false)
-#10 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(97): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, Array)
-#11 /var/www/html/lumen_test/vendor/illuminate/database/Console/Migrations/MigrateCommand.php(66): Illuminate\Database\Migrations\Migrator->run(Array, Array)
-#12 [internal function]: Illuminate\Database\Console\Migrations\MigrateCommand->fire()
-#13 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
-#14 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
-#15 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#16 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#17 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#18 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#19 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#20 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#21 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#22 {main}  
-[2016-10-21 12:13:51] lumen.ERROR: exception 'PDOException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:480
+#0 /var/www/html/lumen_test/vendor/symfony/console/Application.php(522): Symfony\Component\Console\Application->findNamespace('custom')
+#1 /var/www/html/lumen_test/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('custom:employee...')
+#2 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(86): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main}  
+[2016-10-25 11:27:46] lumen.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'There are no commands defined in the "custom" namespace.' in /var/www/html/lumen_test/vendor/symfony/console/Application.php:490
 Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(480): PDOStatement->execute()
-#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(754): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'create table `u...', Array)
-#2 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('create table `u...', Array, Object(Closure))
-#3 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(481): Illuminate\Database\Connection->run('create table `u...', Array, Object(Closure))
-#4 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Blueprint.php(83): Illuminate\Database\Connection->statement('create table `u...')
-#5 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(229): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
-#6 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(148): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
-#7 /var/www/html/lumen_test/vendor/illuminate/support/Facades/Facade.php(237): Illuminate\Database\Schema\Builder->create('users', Object(Closure))
-#8 /var/www/html/lumen_test/database/migrations/2016_10_19_120032_create_user_table.php(22): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
-#9 /var/www/html/lumen_test/database/migrations/2016_10_19_120032_create_user_table.php(22): Illuminate\Support\Facades\Schema::create('users', Object(Closure))
-#10 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(162): CreateUserTable->up()
-#11 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(130): Illuminate\Database\Migrations\Migrator->runUp('/var/www/html/l...', 1, false)
-#12 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(97): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, Array)
-#13 /var/www/html/lumen_test/vendor/illuminate/database/Console/Migrations/MigrateCommand.php(66): Illuminate\Database\Migrations\Migrator->run(Array, Array)
-#14 [internal function]: Illuminate\Database\Console\Migrations\MigrateCommand->fire()
-#15 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
-#16 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
-#17 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#18 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#19 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#20 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#21 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#22 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#23 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#24 {main}
-
-Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists (SQL: create table `users` (`id` int unsigned not null auto_increment primary key, `name` varchar(255) not null, `email` varchar(255) not null, `address` varchar(255) not null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8 collate utf8_unicode_ci)' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:761
+#0 /var/www/html/lumen_test/vendor/symfony/console/Application.php(522): Symfony\Component\Console\Application->findNamespace('custom')
+#1 /var/www/html/lumen_test/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('custom:employee...')
+#2 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(86): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 {main}  
+[2016-10-25 11:27:52] lumen.ERROR: exception 'RuntimeException' with message 'Could not establish Memcached connection.' in /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php:108
 Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('create table `u...', Array, Object(Closure))
-#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(481): Illuminate\Database\Connection->run('create table `u...', Array, Object(Closure))
-#2 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Blueprint.php(83): Illuminate\Database\Connection->statement('create table `u...')
-#3 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(229): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
-#4 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(148): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
-#5 /var/www/html/lumen_test/vendor/illuminate/support/Facades/Facade.php(237): Illuminate\Database\Schema\Builder->create('users', Object(Closure))
-#6 /var/www/html/lumen_test/database/migrations/2016_10_19_120032_create_user_table.php(22): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
-#7 /var/www/html/lumen_test/database/migrations/2016_10_19_120032_create_user_table.php(22): Illuminate\Support\Facades\Schema::create('users', Object(Closure))
-#8 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(162): CreateUserTable->up()
-#9 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(130): Illuminate\Database\Migrations\Migrator->runUp('/var/www/html/l...', 1, false)
-#10 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(97): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, Array)
-#11 /var/www/html/lumen_test/vendor/illuminate/database/Console/Migrations/MigrateCommand.php(66): Illuminate\Database\Migrations\Migrator->run(Array, Array)
-#12 [internal function]: Illuminate\Database\Console\Migrations\MigrateCommand->fire()
-#13 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
-#14 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
-#15 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#16 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#17 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#18 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#19 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#20 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#21 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#22 {main}  
-[2016-10-21 12:14:02] lumen.ERROR: exception 'Symfony\Component\Console\Exception\RuntimeException' with message 'The "-f" option does not exist.' in /var/www/html/lumen_test/vendor/symfony/console/Input/ArgvInput.php:126
+#0 /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php(40): Illuminate\Cache\MemcachedConnector->validateConnection(Object(Memcached))
+#1 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(169): Illuminate\Cache\MemcachedConnector->connect(Array, NULL, Array, Array)
+#2 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(102): Illuminate\Cache\CacheManager->createMemcachedDriver(Array)
+#3 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(77): Illuminate\Cache\CacheManager->resolve('memcached')
+#4 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(55): Illuminate\Cache\CacheManager->get('memcached')
+#5 /var/www/html/lumen_test/vendor/illuminate/cache/Console/ClearCommand.php(55): Illuminate\Cache\CacheManager->store(NULL)
+#6 [internal function]: Illuminate\Cache\Console\ClearCommand->handle()
+#7 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#8 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
+#9 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Cache\Console\ClearCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(86): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 {main}  
+[2016-10-25 11:28:30] lumen.ERROR: exception 'RuntimeException' with message 'Could not establish Memcached connection.' in /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php:108
 Stack trace:
-#0 /var/www/html/lumen_test/vendor/symfony/console/Input/ArgvInput.php(107): Symfony\Component\Console\Input\ArgvInput->parseShortOptionSet('forc')
-#1 /var/www/html/lumen_test/vendor/symfony/console/Input/ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseShortOption('-forc')
-#2 /var/www/html/lumen_test/vendor/symfony/console/Input/Input.php(62): Symfony\Component\Console\Input\ArgvInput->parse()
-#3 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(221): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
-#4 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#5 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#6 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#7 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#9 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#10 {main}  
-[2016-10-21 12:14:04] lumen.ERROR: exception 'Symfony\Component\Console\Exception\RuntimeException' with message 'The "-f" option does not exist.' in /var/www/html/lumen_test/vendor/symfony/console/Input/ArgvInput.php:126
-Stack trace:
-#0 /var/www/html/lumen_test/vendor/symfony/console/Input/ArgvInput.php(107): Symfony\Component\Console\Input\ArgvInput->parseShortOptionSet('force')
-#1 /var/www/html/lumen_test/vendor/symfony/console/Input/ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseShortOption('-force')
-#2 /var/www/html/lumen_test/vendor/symfony/console/Input/Input.php(62): Symfony\Component\Console\Input\ArgvInput->parse()
-#3 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(221): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
-#4 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#5 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#6 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#7 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#9 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#10 {main}  
-[2016-10-21 12:14:10] lumen.ERROR: exception 'Symfony\Component\Console\Exception\RuntimeException' with message 'The "-f" option does not exist.' in /var/www/html/lumen_test/vendor/symfony/console/Input/ArgvInput.php:202
+#0 /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php(40): Illuminate\Cache\MemcachedConnector->validateConnection(Object(Memcached))
+#1 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(169): Illuminate\Cache\MemcachedConnector->connect(Array, NULL, Array, Array)
+#2 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(102): Illuminate\Cache\CacheManager->createMemcachedDriver(Array)
+#3 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(77): Illuminate\Cache\CacheManager->resolve('memcached')
+#4 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(55): Illuminate\Cache\CacheManager->get('memcached')
+#5 /var/www/html/lumen_test/vendor/illuminate/cache/Console/ClearCommand.php(55): Illuminate\Cache\CacheManager->store(NULL)
+#6 [internal function]: Illuminate\Cache\Console\ClearCommand->handle()
+#7 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#8 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
+#9 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Cache\Console\ClearCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(86): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 {main}  
+[2016-10-25 11:28:41] lumen.ERROR: exception 'Symfony\Component\Console\Exception\RuntimeException' with message 'The "-f" option does not exist.' in /var/www/html/lumen_test/vendor/symfony/console/Input/ArgvInput.php:202
 Stack trace:
 #0 /var/www/html/lumen_test/vendor/symfony/console/Input/ArgvInput.php(110): Symfony\Component\Console\Input\ArgvInput->addShortOption('f', NULL)
 #1 /var/www/html/lumen_test/vendor/symfony/console/Input/ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseShortOption('-f')
@@ -953,61 +141,77 @@ Stack trace:
 #3 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(221): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
 #4 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #5 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#6 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Cache\Console\ClearCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #7 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(86): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #9 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #10 {main}  
-[2016-10-21 12:14:24] lumen.ERROR: exception 'PDOException' with message 'SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'job_title'' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:480
+[2016-10-25 11:28:45] lumen.ERROR: exception 'Symfony\Component\Console\Exception\RuntimeException' with message 'The "--f" option does not exist.' in /var/www/html/lumen_test/vendor/symfony/console/Input/ArgvInput.php:219
 Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(480): PDOStatement->execute()
-#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(754): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'create table `j...', Array)
-#2 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('create table `j...', Array, Object(Closure))
-#3 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(481): Illuminate\Database\Connection->run('create table `j...', Array, Object(Closure))
-#4 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Blueprint.php(83): Illuminate\Database\Connection->statement('create table `j...')
-#5 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(229): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
-#6 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(148): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
-#7 /var/www/html/lumen_test/vendor/illuminate/support/Facades/Facade.php(237): Illuminate\Database\Schema\Builder->create('jobs', Object(Closure))
-#8 /var/www/html/lumen_test/database/migrations/2016_10_21_115231_create_job_table.php(23): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
-#9 /var/www/html/lumen_test/database/migrations/2016_10_21_115231_create_job_table.php(23): Illuminate\Support\Facades\Schema::create('jobs', Object(Closure))
-#10 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(162): CreateJobTable->up()
-#11 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(130): Illuminate\Database\Migrations\Migrator->runUp('/var/www/html/l...', 1, false)
-#12 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(97): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, Array)
-#13 /var/www/html/lumen_test/vendor/illuminate/database/Console/Migrations/MigrateCommand.php(66): Illuminate\Database\Migrations\Migrator->run(Array, Array)
-#14 [internal function]: Illuminate\Database\Console\Migrations\MigrateCommand->fire()
-#15 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
-#16 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
-#17 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#18 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#19 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#20 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#21 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#22 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#23 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#24 {main}
+#0 /var/www/html/lumen_test/vendor/symfony/console/Input/ArgvInput.php(155): Symfony\Component\Console\Input\ArgvInput->addLongOption('f', NULL)
+#1 /var/www/html/lumen_test/vendor/symfony/console/Input/ArgvInput.php(84): Symfony\Component\Console\Input\ArgvInput->parseLongOption('--f')
+#2 /var/www/html/lumen_test/vendor/symfony/console/Input/Input.php(62): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(221): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Cache\Console\ClearCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(86): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 {main}  
+[2016-10-25 11:28:49] lumen.ERROR: exception 'Symfony\Component\Console\Exception\RuntimeException' with message 'The "-f" option does not exist.' in /var/www/html/lumen_test/vendor/symfony/console/Input/ArgvInput.php:202
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/symfony/console/Input/ArgvInput.php(110): Symfony\Component\Console\Input\ArgvInput->addShortOption('f', NULL)
+#1 /var/www/html/lumen_test/vendor/symfony/console/Input/ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseShortOption('-f')
+#2 /var/www/html/lumen_test/vendor/symfony/console/Input/Input.php(62): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(221): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Cache\Console\ClearCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(86): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 {main}  
+[2016-10-25 11:28:55] lumen.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'Command "cache" is not defined.
 
-Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'job_title' (SQL: create table `jobs` (`id` int unsigned not null auto_increment primary key, `job_title` int not null, `job_title` varchar(255) not null, `salary` varchar(255) not null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8 collate utf8_unicode_ci)' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:761
+Did you mean this?
+    cache:clear' in /var/www/html/lumen_test/vendor/symfony/console/Application.php:536
 Stack trace:
-#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('create table `j...', Array, Object(Closure))
-#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(481): Illuminate\Database\Connection->run('create table `j...', Array, Object(Closure))
-#2 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Blueprint.php(83): Illuminate\Database\Connection->statement('create table `j...')
-#3 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(229): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
-#4 /var/www/html/lumen_test/vendor/illuminate/database/Schema/Builder.php(148): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
-#5 /var/www/html/lumen_test/vendor/illuminate/support/Facades/Facade.php(237): Illuminate\Database\Schema\Builder->create('jobs', Object(Closure))
-#6 /var/www/html/lumen_test/database/migrations/2016_10_21_115231_create_job_table.php(23): Illuminate\Support\Facades\Facade::__callStatic('create', Array)
-#7 /var/www/html/lumen_test/database/migrations/2016_10_21_115231_create_job_table.php(23): Illuminate\Support\Facades\Schema::create('jobs', Object(Closure))
-#8 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(162): CreateJobTable->up()
-#9 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(130): Illuminate\Database\Migrations\Migrator->runUp('/var/www/html/l...', 1, false)
-#10 /var/www/html/lumen_test/vendor/illuminate/database/Migrations/Migrator.php(97): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, Array)
-#11 /var/www/html/lumen_test/vendor/illuminate/database/Console/Migrations/MigrateCommand.php(66): Illuminate\Database\Migrations\Migrator->run(Array, Array)
-#12 [internal function]: Illuminate\Database\Console\Migrations\MigrateCommand->fire()
-#13 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
-#14 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
-#15 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#16 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#17 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#18 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Database\Console\Migrations\MigrateCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#19 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#20 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(83): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#21 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
-#22 {main}  
+#0 /var/www/html/lumen_test/vendor/symfony/console/Application.php(184): Symfony\Component\Console\Application->find('cache')
+#1 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(86): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
+[2016-10-25 11:29:01] lumen.ERROR: exception 'RuntimeException' with message 'Could not establish Memcached connection.' in /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php:108
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/illuminate/cache/MemcachedConnector.php(40): Illuminate\Cache\MemcachedConnector->validateConnection(Object(Memcached))
+#1 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(169): Illuminate\Cache\MemcachedConnector->connect(Array, NULL, Array, Array)
+#2 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(102): Illuminate\Cache\CacheManager->createMemcachedDriver(Array)
+#3 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(77): Illuminate\Cache\CacheManager->resolve('memcached')
+#4 /var/www/html/lumen_test/vendor/illuminate/cache/CacheManager.php(55): Illuminate\Cache\CacheManager->get('memcached')
+#5 /var/www/html/lumen_test/vendor/illuminate/cache/Console/ClearCommand.php(55): Illuminate\Cache\CacheManager->store(NULL)
+#6 [internal function]: Illuminate\Cache\Console\ClearCommand->handle()
+#7 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#8 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(169): Illuminate\Container\Container->call(Array)
+#9 /var/www/html/lumen_test/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /var/www/html/lumen_test/vendor/symfony/console/Application.php(820): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /var/www/html/lumen_test/vendor/symfony/console/Application.php(187): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Cache\Console\ClearCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /var/www/html/lumen_test/vendor/symfony/console/Application.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(86): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 {main}  
+[2016-10-25 11:33:44] lumen.ERROR: exception 'ErrorException' with message 'Invalid argument supplied for foreach()' in /var/www/html/lumen_test/vendor/illuminate/console/Command.php:137
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(137): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'Invalid argumen...', '/var/www/html/l...', 137, Array)
+#1 /var/www/html/lumen_test/vendor/illuminate/console/Command.php(99): Illuminate\Console\Command->specifyParameters()
+#2 [internal function]: Illuminate\Console\Command->__construct()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(794): ReflectionClass->newInstanceArgs(Array)
+#4 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('App\\Console\\Com...', Array)
+#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('App\\Console\\Com...', Array)
+#6 /var/www/html/lumen_test/vendor/illuminate/console/Application.php(115): Laravel\Lumen\Application->make('App\\Console\\Com...')
+#7 /var/www/html/lumen_test/vendor/illuminate/console/Application.php(129): Illuminate\Console\Application->resolve('App\\Console\\Com...')
+#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(166): Illuminate\Console\Application->resolveCommands(Array)
+#9 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(84): Laravel\Lumen\Console\Kernel->getArtisan()
+#10 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main}  

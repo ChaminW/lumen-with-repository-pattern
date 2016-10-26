@@ -39,7 +39,8 @@ class Kernel implements KernelContract
      *
      * @var array
      */
-    protected $commands = [];
+    protected $commands = [
+    ];
 
     /**
      * Create a new console kernel instance.

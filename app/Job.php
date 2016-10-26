@@ -12,7 +12,7 @@ use Illuminate\Database\Eloquent\Model;
 
 
 
-class Employee extends Model
+class Job extends Model
 {
-    protected $fillable = ['id','first_name','last_name', 'contact_num', 'address'];
+    protected $fillable = ['id','job_title','salary'];
 }

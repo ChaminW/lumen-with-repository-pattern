@@ -50,7 +50,7 @@ class UserController extends Controller
         $user = User::find($id);
         $user->delete();
 
-        return response()->json('deleted');
+        return response()->json('User deleted');
     }
 
     public function updateUser(Request $request,$id){

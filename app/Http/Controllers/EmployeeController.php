@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Log;
 use App\Employee;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -20,49 +21,54 @@ class EmployeeController extends Controller
     public function show(){
 
 
-        $User  = User::all();
+        $Employee  = Employee::all();
 
-        return response()->json($User);
+        return response()->json($Employee);
     }
 
-    public function getUser($id){
+    public function getEmployee($id){
 
-        $User  = User::find($id);
+        $Employee  = Employee::find($id);
 
-        return response()->json($User);
+        Log::info('Getting Employee: '.$Employee);
+
+        return response()->json($Employee);
 
     }
 
-    public function createUser(Request $request){
+    public function createEmployee(Request $request){
 
         $this->validate($request, [
-            'name' => 'required',
-            'email' => 'email'
+            'first_name' => 'required'
         ]);
 
-        $User = User::create($request->all());
+        $Employee = Employee::create($request->all());
 
-        return response()->json($User);
+//        Log::info('Adding Employee: '.$Employee);
+
+        return response()->json($Employee);
 
     }
 
-    public function deleteUser($id){
-        $user = User::find($id);
-        $user->delete();
+    public function deleteEmployee($id){
+        $Employee = Employee::find($id);
+        $Employee->delete();
 
-        return response()->json('deleted');
+        return response()->json('Employee deleted');
     }
 
-    public function updateUser(Request $request,$id){
+    public function updateEmployee(Request $request,$id){
 
-        $user  = User::find($id);
-        $user->title = $request->input('name');
-        $user->author = $request->input('email');
-        $user->isbn = $request->input('address');
-        $user->save();
+        $Employee  = Employee::find($id);
 
-        return response()->json($user);
+        $Employee->first_name = $request->input('first_name');
+        $Employee->last_name = $request->input('last_name');
+        $Employee->contact_num = $request->input('contact_num');
+        $Employee->address = $request->input('address');
+        $Employee->save();
+
+        return response()->json($Employee);
     }
 
-    //
+
 }

@@ -49,6 +49,14 @@ $app->group(['prefix' => 'api/employee','namespace' => 'App\Http\Controllers'], 
     $app->delete('/{id}', 'EmployeeController@deleteEmployee');
 });
 
+$app->group(['prefix' => 'api/job','namespace' => 'App\Http\Controllers'], function($app) {
+    $app->get('/', 'JobController@show');
+    $app->get('/{id}', 'JobController@getJob');
+    $app->post('/', 'JobController@createJob');
+    $app->put('/{id}', 'JobController@updateJob');
+    $app->delete('/{id}', 'JobController@deleteJob');
+});
+
 //*************************************************************************
 // dynamic routing
 $app->get('user/{id}', function ($id) {
