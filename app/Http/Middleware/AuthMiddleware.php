@@ -15,7 +15,7 @@ class AuthMiddleware
      */
     public function handle($request, Closure $next)
     {
-        if ($request->input('is_logged_in') == false) {
+        if ($request->input('is_logged_in') != true) {
             return abort(403, 'Unauthorized action.');
         }
 
