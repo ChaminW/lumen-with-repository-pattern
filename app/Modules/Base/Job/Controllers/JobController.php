@@ -1,11 +1,13 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Modules\Base\Job\Controllers;
 
 
 use App\Events\JobAddedEvent;
-use App\Job;
+
 use App\Http\Controllers\Controller;
+use App\Modules\Base\Job\Models;
+use App\Modules\Base\Job\Models\Job;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Event;
 

@@ -17,7 +17,7 @@ class Address extends \Faker\Provider\fr_FR\Address
         '-du-Lac-Long', '-de-Rioux', '-du-Squatec', '-de-Métis', '-d\'Ixworth', '-de-la-Croix', '-de-Matane', '-du-Lac-Humqui',
         '-de-Mérici', '-de-la-Pocatière', '-sur-le-Lac',
         // Saguenay–Lac-Saint-Jean
-        '-de-Lorette', '-du-Lac-Saint-Jean', '-de-Bourget', '-de-Falardeau', '-les-Plaines', '-de-Sales', '-de-Taillon',
+        '-de-Lorette', '-du-Lac-Saint-Jean', '-de-Bourget', '-de-Falardeau', '-les-Plaines', '-de-Job', '-de-Taillon',
         '-de-Milot', '-du-Nord',
         // Québec (Capitale-Nationale)
         '-aux-Coudres', '-des-Anges', '-de-Desmaures', '-les-Neiges', '-de-l\'Île-d\'Orléans', '-de-Valcartier',

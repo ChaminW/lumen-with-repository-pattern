@@ -237,3 +237,734 @@ Stack trace:
 #3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Console/Kernel.php(84): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #4 /var/www/html/lumen_test/artisan(35): Laravel\Lumen\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
 #5 {main}  
+[2016-10-31 05:19:35] lumen.ERROR: exception 'ErrorException' with message 'Variable passed to each() is not an array or object' in /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php:31
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'Variable passed...', '/var/www/html/l...', 31, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(31): each(NULL)
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(85): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 05:23:45] lumen.ERROR: exception 'ErrorException' with message 'Variable passed to each() is not an array or object' in /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php:34
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'Variable passed...', '/var/www/html/l...', 34, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(34): each(NULL)
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(85): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 05:23:47] lumen.ERROR: exception 'ErrorException' with message 'Variable passed to each() is not an array or object' in /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php:34
+Stack trace:
+#0 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'Variable passed...', '/var/www/html/l...', 34, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(34): each(NULL)
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(85): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 05:25:24] lumen.ERROR: exception 'ErrorException' with message 'Array to string conversion' in /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php:32
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(32): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Array to string...', '/var/www/html/l...', 32, Array)
+#1 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#2 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#4 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#5 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#6 {main}  
+[2016-10-31 05:26:22] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Route' not found' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:10
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-10-31 05:27:48] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:11
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(11): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 11, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 05:31:32] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:11
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(11): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 11, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 05:36:20] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:13
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(13): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 13, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 05:36:24] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:13
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(13): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 13, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 05:43:07] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:13
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(13): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 13, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 05:48:37] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:13
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(13): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 13, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 05:48:41] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:13
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(13): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 13, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 05:51:58] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:13
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(13): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 13, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 05:52:00] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:13
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(13): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 13, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 05:52:01] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:13
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(13): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 13, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 05:53:01] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:13
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(13): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 13, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 05:53:03] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:13
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(13): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 13, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 05:54:57] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:10
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(10): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 10, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 05:55:10] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:10
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(10): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 10, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 05:55:13] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:10
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(10): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 10, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 05:58:26] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:13
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(13): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 13, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 05:58:27] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:13
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(13): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 13, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 06:10:52] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:11
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(11): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 11, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 06:14:34] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'main(): Failed opening required '/var/www/html/lumen_test/app/Modules/Employee/../bootstrap/app.php' (include_path='.:/usr/share/php:/usr/share/pear:')' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:8
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-10-31 06:16:49] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'main(): Failed opening required '/var/www/html/lumen_test/app/Modules/Employee../../../bootstrap/app.php' (include_path='.:/usr/share/php:/usr/share/pear:')' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:8
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-10-31 06:20:23] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'main(): Failed opening required '/var/www/html/lumen_test/app/Modules/Employee../../../bootstrap/app.php' (include_path='.:/usr/share/php:/usr/share/pear:')' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:8
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-10-31 06:20:40] lumen.ERROR: exception 'ErrorException' with message 'include(/var/www/html/lumen_test/app/Modules/Employee../../../bootstrap/app.php): failed to open stream: No such file or directory' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:9
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(9): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(2, 'include(/var/ww...', '/var/www/html/l...', 9, Array)
+#1 /var/www/html/lumen_test/app/Modules/Employee/routes.php(9): include()
+#2 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#3 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#4 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#6 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#7 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#8 {main}  
+[2016-10-31 06:26:34] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'main(): Failed opening required '/var/www/html/lumen_test/app/Modules/Employee../../../bootstrap/app.php' (include_path='.:/usr/share/php:/usr/share/pear:')' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:9
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-10-31 06:27:38] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:12
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(12): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 12, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 06:30:38] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:12
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(12): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 12, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(88): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 06:37:41] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:12
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(12): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 12, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(107): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 06:39:19] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:12
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(12): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 12, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): require('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(107): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#7 {main}  
+[2016-10-31 06:45:13] lumen.ERROR: exception 'ErrorException' with message 'Undefined variable: app' in /var/www/html/lumen_test/app/Modules/Employee/routes.php:12
+Stack trace:
+#0 /var/www/html/lumen_test/app/Modules/Employee/routes.php(12): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(8, 'Undefined varia...', '/var/www/html/l...', 12, Array)
+#1 /var/www/html/lumen_test/app/Modules/ModulesServiceProvider.php(38): include('/var/www/html/l...')
+#2 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#3 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(177): Illuminate\Container\Container->call(Array)
+#5 /var/www/html/lumen_test/bootstrap/app.php(104): Laravel\Lumen\Application->register('App\\Modules\\Mod...')
+#6 [internal function]: {closure}(Object(Laravel\Lumen\Application))
+#7 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(93): call_user_func(Object(Closure), Object(Laravel\Lumen\Application))
+#8 /var/www/html/lumen_test/bootstrap/app.php(105): Laravel\Lumen\Application->group(Array, Object(Closure))
+#9 /var/www/html/lumen_test/public/index.php(14): require('/var/www/html/l...')
+#10 {main}  
+[2016-10-31 08:16:40] lumen.ERROR: exception 'ReflectionException' with message 'Class Modules\Employee\Controllers\EmployeeController does not exist' in /var/www/html/lumen_test/vendor/illuminate/container/Container.php:749
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(749): ReflectionClass->__construct('Modules\\Employe...')
+#1 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('Modules\\Employe...', Array)
+#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('Modules\\Employe...', Array)
+#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(545): Laravel\Lumen\Application->make('Modules\\Employe...')
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Illuminate\Http\Request))
+#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(52): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#9 /var/www/html/lumen_test/app/Http/Middleware/AuthMiddleware.php(23): Laravel\Lumen\Routing\Pipeline->Laravel\Lumen\Routing\{closure}(Object(Illuminate\Http\Request))
+#10 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(137): App\Http\Middleware\AuthMiddleware->handle(Object(Illuminate\Http\Request), Object(Closure))
+#11 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#12 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(32): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#13 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(104): Laravel\Lumen\Routing\Pipeline->Laravel\Lumen\Routing\{closure}(Object(Illuminate\Http\Request))
+#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(647): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#15 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#16 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /var/www/html/lumen_test/public/index.php(29): Laravel\Lumen\Application->run(Object(Illuminate\Http\Request))
+#18 {main}  
+[2016-10-31 08:18:36] lumen.ERROR: exception 'ReflectionException' with message 'Class Modules\Employee\Controllers\EmployeeController does not exist' in /var/www/html/lumen_test/vendor/illuminate/container/Container.php:749
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(749): ReflectionClass->__construct('Modules\\Employe...')
+#1 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('Modules\\Employe...', Array)
+#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('Modules\\Employe...', Array)
+#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(545): Laravel\Lumen\Application->make('Modules\\Employe...')
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Illuminate\Http\Request))
+#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(52): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#9 /var/www/html/lumen_test/app/Http/Middleware/AuthMiddleware.php(23): Laravel\Lumen\Routing\Pipeline->Laravel\Lumen\Routing\{closure}(Object(Illuminate\Http\Request))
+#10 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(137): App\Http\Middleware\AuthMiddleware->handle(Object(Illuminate\Http\Request), Object(Closure))
+#11 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#12 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(32): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#13 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(104): Laravel\Lumen\Routing\Pipeline->Laravel\Lumen\Routing\{closure}(Object(Illuminate\Http\Request))
+#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(647): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#15 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#16 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /var/www/html/lumen_test/public/index.php(29): Laravel\Lumen\Application->run(Object(Illuminate\Http\Request))
+#18 {main}  
+[2016-10-31 08:27:39] lumen.ERROR: exception 'ReflectionException' with message 'Class Modules\Employee\Controllers\EmployeeController does not exist' in /var/www/html/lumen_test/vendor/illuminate/container/Container.php:749
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(749): ReflectionClass->__construct('Modules\\Employe...')
+#1 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('Modules\\Employe...', Array)
+#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('Modules\\Employe...', Array)
+#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(545): Laravel\Lumen\Application->make('Modules\\Employe...')
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Illuminate\Http\Request))
+#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(52): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#9 /var/www/html/lumen_test/app/Http/Middleware/AuthMiddleware.php(23): Laravel\Lumen\Routing\Pipeline->Laravel\Lumen\Routing\{closure}(Object(Illuminate\Http\Request))
+#10 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(137): App\Http\Middleware\AuthMiddleware->handle(Object(Illuminate\Http\Request), Object(Closure))
+#11 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#12 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(32): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#13 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(104): Laravel\Lumen\Routing\Pipeline->Laravel\Lumen\Routing\{closure}(Object(Illuminate\Http\Request))
+#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(647): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#15 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#16 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /var/www/html/lumen_test/public/index.php(29): Laravel\Lumen\Application->run(Object(Illuminate\Http\Request))
+#18 {main}  
+[2016-10-31 08:28:55] lumen.ERROR: exception 'ReflectionException' with message 'Class Modules\Employee\Controllers\EmployeeController does not exist' in /var/www/html/lumen_test/vendor/illuminate/container/Container.php:749
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(749): ReflectionClass->__construct('Modules\\Employe...')
+#1 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('Modules\\Employe...', Array)
+#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('Modules\\Employe...', Array)
+#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(545): Laravel\Lumen\Application->make('Modules\\Employe...')
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Illuminate\Http\Request))
+#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(52): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#9 /var/www/html/lumen_test/app/Http/Middleware/AuthMiddleware.php(23): Laravel\Lumen\Routing\Pipeline->Laravel\Lumen\Routing\{closure}(Object(Illuminate\Http\Request))
+#10 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(137): App\Http\Middleware\AuthMiddleware->handle(Object(Illuminate\Http\Request), Object(Closure))
+#11 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#12 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(32): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#13 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(104): Laravel\Lumen\Routing\Pipeline->Laravel\Lumen\Routing\{closure}(Object(Illuminate\Http\Request))
+#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(647): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#15 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#16 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /var/www/html/lumen_test/public/index.php(29): Laravel\Lumen\Application->run(Object(Illuminate\Http\Request))
+#18 {main}  
+[2016-10-31 08:29:15] lumen.ERROR: exception 'ReflectionException' with message 'Class Modules\Employee\Controllers\EmployeeController does not exist' in /var/www/html/lumen_test/vendor/illuminate/container/Container.php:749
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(749): ReflectionClass->__construct('Modules\\Employe...')
+#1 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('Modules\\Employe...', Array)
+#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('Modules\\Employe...', Array)
+#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(545): Laravel\Lumen\Application->make('Modules\\Employe...')
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Illuminate\Http\Request))
+#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(52): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#9 /var/www/html/lumen_test/app/Http/Middleware/AuthMiddleware.php(23): Laravel\Lumen\Routing\Pipeline->Laravel\Lumen\Routing\{closure}(Object(Illuminate\Http\Request))
+#10 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(137): App\Http\Middleware\AuthMiddleware->handle(Object(Illuminate\Http\Request), Object(Closure))
+#11 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#12 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(32): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#13 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(104): Laravel\Lumen\Routing\Pipeline->Laravel\Lumen\Routing\{closure}(Object(Illuminate\Http\Request))
+#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(647): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#15 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#16 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /var/www/html/lumen_test/public/index.php(29): Laravel\Lumen\Application->run(Object(Illuminate\Http\Request))
+#18 {main}  
+[2016-10-31 08:30:14] lumen.ERROR: exception 'ReflectionException' with message 'Class Modules\Employee\Controllers\EmployeeController does not exist' in /var/www/html/lumen_test/vendor/illuminate/container/Container.php:749
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(749): ReflectionClass->__construct('Modules\\Employe...')
+#1 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('Modules\\Employe...', Array)
+#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('Modules\\Employe...', Array)
+#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(545): Laravel\Lumen\Application->make('Modules\\Employe...')
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /var/www/html/lumen_test/public/index.php(29): Laravel\Lumen\Application->run(Object(Illuminate\Http\Request))
+#11 {main}  
+[2016-10-31 08:30:16] lumen.ERROR: exception 'ReflectionException' with message 'Class Modules\Employee\Controllers\EmployeeController does not exist' in /var/www/html/lumen_test/vendor/illuminate/container/Container.php:749
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(749): ReflectionClass->__construct('Modules\\Employe...')
+#1 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('Modules\\Employe...', Array)
+#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('Modules\\Employe...', Array)
+#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(545): Laravel\Lumen\Application->make('Modules\\Employe...')
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /var/www/html/lumen_test/public/index.php(29): Laravel\Lumen\Application->run(Object(Illuminate\Http\Request))
+#11 {main}  
+[2016-10-31 09:04:49] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\JobController does not exist' in /var/www/html/lumen_test/vendor/illuminate/container/Container.php:749
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(749): ReflectionClass->__construct('App\\Http\\Contro...')
+#1 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(545): Laravel\Lumen\Application->make('App\\Http\\Contro...')
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}(Object(Illuminate\Http\Request))
+#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(52): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#9 /var/www/html/lumen_test/app/Http/Middleware/AuthMiddleware.php(23): Laravel\Lumen\Routing\Pipeline->Laravel\Lumen\Routing\{closure}(Object(Illuminate\Http\Request))
+#10 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(137): App\Http\Middleware\AuthMiddleware->handle(Object(Illuminate\Http\Request), Object(Closure))
+#11 [internal function]: Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#12 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(32): call_user_func(Object(Closure), Object(Illuminate\Http\Request))
+#13 /var/www/html/lumen_test/vendor/illuminate/pipeline/Pipeline.php(104): Laravel\Lumen\Routing\Pipeline->Laravel\Lumen\Routing\{closure}(Object(Illuminate\Http\Request))
+#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(647): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#15 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#16 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /var/www/html/lumen_test/public/index.php(29): Laravel\Lumen\Application->run(Object(Illuminate\Http\Request))
+#18 {main}  
+[2016-10-31 09:13:31] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Http\Controllers\EmployeeController does not exist' in /var/www/html/lumen_test/vendor/illuminate/container/Container.php:749
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(749): ReflectionClass->__construct('App\\Http\\Contro...')
+#1 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('App\\Http\\Contro...', Array)
+#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('App\\Http\\Contro...', Array)
+#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(545): Laravel\Lumen\Application->make('App\\Http\\Contro...')
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /var/www/html/lumen_test/public/index.php(29): Laravel\Lumen\Application->run(Object(Illuminate\Http\Request))
+#11 {main}  
+[2016-10-31 09:45:44] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Modules\Base\Job\Controllers\Job' not found' in /var/www/html/lumen_test/app/Modules/Base/Job/Controllers/JobController.php:28
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-10-31 10:14:07] lumen.ERROR: exception 'ReflectionException' with message 'Class App\Modules\Custom\Employee\Controllers\EmployeeController does not exist' in /var/www/html/lumen_test/vendor/illuminate/container/Container.php:749
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(749): ReflectionClass->__construct('App\\Modules\\Cus...')
+#1 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(644): Illuminate\Container\Container->build('App\\Modules\\Cus...', Array)
+#2 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Application.php(211): Illuminate\Container\Container->make('App\\Modules\\Cus...', Array)
+#3 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(545): Laravel\Lumen\Application->make('App\\Modules\\Cus...')
+#4 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
+#5 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#6 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
+#7 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#8 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#9 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /var/www/html/lumen_test/public/index.php(29): Laravel\Lumen\Application->run(Object(Illuminate\Http\Request))
+#11 {main}  
+[2016-10-31 10:15:22] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ''EmployeeController@deleteEmpl' (T_CONSTANT_ENCAPSED_STRING)' in /var/www/html/lumen_test/app/Modules/Custom/Employee/routes.php:18
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-10-31 10:15:35] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Modules\Custom\Employee\Models\Employee' not found' in /var/www/html/lumen_test/app/Modules/Custom/Employee/Controllers/CustomEmployeeController.php:28
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-10-31 10:16:14] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Modules\Custom\Employee\Models\Employee' not found' in /var/www/html/lumen_test/app/Modules/Custom/Employee/Controllers/CustomEmployeeController.php:28
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-10-31 10:16:16] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Modules\Custom\Employee\Models\Employee' not found' in /var/www/html/lumen_test/app/Modules/Custom/Employee/Controllers/CustomEmployeeController.php:28
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-10-31 10:16:25] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Modules\Custom\Employee\Models\Employee' not found' in /var/www/html/lumen_test/app/Modules/Custom/Employee/Controllers/CustomEmployeeController.php:28
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-10-31 10:17:46] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Modules\Custom\Employee\Controllers\Employee' not found' in /var/www/html/lumen_test/app/Modules/Custom/Employee/Controllers/CustomEmployeeController.php:29
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-10-31 10:17:48] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Modules\Custom\Employee\Controllers\Employee' not found' in /var/www/html/lumen_test/app/Modules/Custom/Employee/Controllers/CustomEmployeeController.php:29
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  
+[2016-10-31 10:18:27] lumen.ERROR: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lumen_rest.custom_employees' doesn't exist' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:333
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(333): PDO->prepare('select * from `...')
+#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(754): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select * from `...', Array)
+#2 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(351): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /var/www/html/lumen_test/vendor/illuminate/database/Query/Builder.php(1648): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#5 /var/www/html/lumen_test/vendor/illuminate/database/Query/Builder.php(1634): Illuminate\Database\Query\Builder->runSelect()
+#6 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Builder.php(613): Illuminate\Database\Query\Builder->get(Array)
+#7 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Builder.php(318): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Model.php(632): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 /var/www/html/lumen_test/app/Modules/Custom/Employee/Controllers/CustomEmployeeController.php(29): Illuminate\Database\Eloquent\Model::all()
+#10 [internal function]: App\Modules\Custom\Employee\Controllers\CustomEmployeeController->show()
+#11 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#12 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(610): Illuminate\Container\Container->call(Array, Array)
+#13 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(577): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(550): Laravel\Lumen\Application->callLumenController(Object(App\Modules\Custom\Employee\Controllers\CustomEmployeeController), 'show', Array)
+#15 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
+#16 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#17 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
+#18 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#19 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#20 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(Object(Illuminate\Http\Request))
+#21 /var/www/html/lumen_test/public/index.php(29): Laravel\Lumen\Application->run(Object(Illuminate\Http\Request))
+#22 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lumen_rest.custom_employees' doesn't exist (SQL: select * from `custom_employees`)' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:761
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(351): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 /var/www/html/lumen_test/vendor/illuminate/database/Query/Builder.php(1648): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#3 /var/www/html/lumen_test/vendor/illuminate/database/Query/Builder.php(1634): Illuminate\Database\Query\Builder->runSelect()
+#4 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Builder.php(613): Illuminate\Database\Query\Builder->get(Array)
+#5 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Builder.php(318): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#6 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Model.php(632): Illuminate\Database\Eloquent\Builder->get(Array)
+#7 /var/www/html/lumen_test/app/Modules/Custom/Employee/Controllers/CustomEmployeeController.php(29): Illuminate\Database\Eloquent\Model::all()
+#8 [internal function]: App\Modules\Custom\Employee\Controllers\CustomEmployeeController->show()
+#9 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#10 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(610): Illuminate\Container\Container->call(Array, Array)
+#11 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(577): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#12 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(550): Laravel\Lumen\Application->callLumenController(Object(App\Modules\Custom\Employee\Controllers\CustomEmployeeController), 'show', Array)
+#13 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
+#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#15 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
+#16 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#17 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#18 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(Object(Illuminate\Http\Request))
+#19 /var/www/html/lumen_test/public/index.php(29): Laravel\Lumen\Application->run(Object(Illuminate\Http\Request))
+#20 {main}  
+[2016-10-31 10:23:06] lumen.ERROR: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lumen_rest.custom_employees' doesn't exist' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:333
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(333): PDO->prepare('select * from `...')
+#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(754): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select * from `...', Array)
+#2 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(351): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /var/www/html/lumen_test/vendor/illuminate/database/Query/Builder.php(1648): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#5 /var/www/html/lumen_test/vendor/illuminate/database/Query/Builder.php(1634): Illuminate\Database\Query\Builder->runSelect()
+#6 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Builder.php(613): Illuminate\Database\Query\Builder->get(Array)
+#7 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Builder.php(318): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Model.php(632): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 /var/www/html/lumen_test/app/Modules/Custom/Employee/Controllers/CustomEmployeeController.php(29): Illuminate\Database\Eloquent\Model::all()
+#10 [internal function]: App\Modules\Custom\Employee\Controllers\CustomEmployeeController->show()
+#11 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#12 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(610): Illuminate\Container\Container->call(Array, Array)
+#13 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(577): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(550): Laravel\Lumen\Application->callLumenController(Object(App\Modules\Custom\Employee\Controllers\CustomEmployeeController), 'show', Array)
+#15 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
+#16 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#17 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
+#18 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#19 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#20 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(Object(Illuminate\Http\Request))
+#21 /var/www/html/lumen_test/public/index.php(29): Laravel\Lumen\Application->run(Object(Illuminate\Http\Request))
+#22 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lumen_rest.custom_employees' doesn't exist (SQL: select * from `custom_employees`)' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:761
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(351): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 /var/www/html/lumen_test/vendor/illuminate/database/Query/Builder.php(1648): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#3 /var/www/html/lumen_test/vendor/illuminate/database/Query/Builder.php(1634): Illuminate\Database\Query\Builder->runSelect()
+#4 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Builder.php(613): Illuminate\Database\Query\Builder->get(Array)
+#5 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Builder.php(318): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#6 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Model.php(632): Illuminate\Database\Eloquent\Builder->get(Array)
+#7 /var/www/html/lumen_test/app/Modules/Custom/Employee/Controllers/CustomEmployeeController.php(29): Illuminate\Database\Eloquent\Model::all()
+#8 [internal function]: App\Modules\Custom\Employee\Controllers\CustomEmployeeController->show()
+#9 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#10 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(610): Illuminate\Container\Container->call(Array, Array)
+#11 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(577): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#12 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(550): Laravel\Lumen\Application->callLumenController(Object(App\Modules\Custom\Employee\Controllers\CustomEmployeeController), 'show', Array)
+#13 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
+#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#15 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
+#16 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#17 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#18 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(Object(Illuminate\Http\Request))
+#19 /var/www/html/lumen_test/public/index.php(29): Laravel\Lumen\Application->run(Object(Illuminate\Http\Request))
+#20 {main}  
+[2016-10-31 10:23:08] lumen.ERROR: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lumen_rest.custom_employees' doesn't exist' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:333
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(333): PDO->prepare('select * from `...')
+#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(754): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select * from `...', Array)
+#2 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(351): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /var/www/html/lumen_test/vendor/illuminate/database/Query/Builder.php(1648): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#5 /var/www/html/lumen_test/vendor/illuminate/database/Query/Builder.php(1634): Illuminate\Database\Query\Builder->runSelect()
+#6 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Builder.php(613): Illuminate\Database\Query\Builder->get(Array)
+#7 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Builder.php(318): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Model.php(632): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 /var/www/html/lumen_test/app/Modules/Custom/Employee/Controllers/CustomEmployeeController.php(29): Illuminate\Database\Eloquent\Model::all()
+#10 [internal function]: App\Modules\Custom\Employee\Controllers\CustomEmployeeController->show()
+#11 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#12 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(610): Illuminate\Container\Container->call(Array, Array)
+#13 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(577): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(550): Laravel\Lumen\Application->callLumenController(Object(App\Modules\Custom\Employee\Controllers\CustomEmployeeController), 'show', Array)
+#15 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
+#16 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#17 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
+#18 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#19 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#20 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(Object(Illuminate\Http\Request))
+#21 /var/www/html/lumen_test/public/index.php(29): Laravel\Lumen\Application->run(Object(Illuminate\Http\Request))
+#22 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lumen_rest.custom_employees' doesn't exist (SQL: select * from `custom_employees`)' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:761
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(351): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 /var/www/html/lumen_test/vendor/illuminate/database/Query/Builder.php(1648): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#3 /var/www/html/lumen_test/vendor/illuminate/database/Query/Builder.php(1634): Illuminate\Database\Query\Builder->runSelect()
+#4 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Builder.php(613): Illuminate\Database\Query\Builder->get(Array)
+#5 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Builder.php(318): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#6 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Model.php(632): Illuminate\Database\Eloquent\Builder->get(Array)
+#7 /var/www/html/lumen_test/app/Modules/Custom/Employee/Controllers/CustomEmployeeController.php(29): Illuminate\Database\Eloquent\Model::all()
+#8 [internal function]: App\Modules\Custom\Employee\Controllers\CustomEmployeeController->show()
+#9 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#10 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(610): Illuminate\Container\Container->call(Array, Array)
+#11 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(577): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#12 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(550): Laravel\Lumen\Application->callLumenController(Object(App\Modules\Custom\Employee\Controllers\CustomEmployeeController), 'show', Array)
+#13 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
+#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#15 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
+#16 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#17 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#18 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(Object(Illuminate\Http\Request))
+#19 /var/www/html/lumen_test/public/index.php(29): Laravel\Lumen\Application->run(Object(Illuminate\Http\Request))
+#20 {main}  
+[2016-10-31 10:34:25] lumen.ERROR: exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lumen_rest.custom_employees' doesn't exist' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:333
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(333): PDO->prepare('select * from `...')
+#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(754): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select * from `...', Array)
+#2 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(351): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /var/www/html/lumen_test/vendor/illuminate/database/Query/Builder.php(1648): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#5 /var/www/html/lumen_test/vendor/illuminate/database/Query/Builder.php(1634): Illuminate\Database\Query\Builder->runSelect()
+#6 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Builder.php(613): Illuminate\Database\Query\Builder->get(Array)
+#7 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Builder.php(318): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Model.php(632): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 /var/www/html/lumen_test/app/Modules/Custom/Employee/Controllers/CustomEmployeeController.php(29): Illuminate\Database\Eloquent\Model::all()
+#10 [internal function]: App\Modules\Custom\Employee\Controllers\CustomEmployeeController->show()
+#11 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#12 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(610): Illuminate\Container\Container->call(Array, Array)
+#13 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(577): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(550): Laravel\Lumen\Application->callLumenController(Object(App\Modules\Custom\Employee\Controllers\CustomEmployeeController), 'show', Array)
+#15 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
+#16 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#17 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
+#18 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#19 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#20 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(Object(Illuminate\Http\Request))
+#21 /var/www/html/lumen_test/public/index.php(29): Laravel\Lumen\Application->run(Object(Illuminate\Http\Request))
+#22 {main}
+
+Next exception 'Illuminate\Database\QueryException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'lumen_rest.custom_employees' doesn't exist (SQL: select * from `custom_employees`)' in /var/www/html/lumen_test/vendor/illuminate/database/Connection.php:761
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(717): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 /var/www/html/lumen_test/vendor/illuminate/database/Connection.php(351): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 /var/www/html/lumen_test/vendor/illuminate/database/Query/Builder.php(1648): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#3 /var/www/html/lumen_test/vendor/illuminate/database/Query/Builder.php(1634): Illuminate\Database\Query\Builder->runSelect()
+#4 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Builder.php(613): Illuminate\Database\Query\Builder->get(Array)
+#5 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Builder.php(318): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#6 /var/www/html/lumen_test/vendor/illuminate/database/Eloquent/Model.php(632): Illuminate\Database\Eloquent\Builder->get(Array)
+#7 /var/www/html/lumen_test/app/Modules/Custom/Employee/Controllers/CustomEmployeeController.php(29): Illuminate\Database\Eloquent\Model::all()
+#8 [internal function]: App\Modules\Custom\Employee\Controllers\CustomEmployeeController->show()
+#9 /var/www/html/lumen_test/vendor/illuminate/container/Container.php(508): call_user_func_array(Array, Array)
+#10 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(610): Illuminate\Container\Container->call(Array, Array)
+#11 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(577): Laravel\Lumen\Application->callControllerCallable(Array, Array)
+#12 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(550): Laravel\Lumen\Application->callLumenController(Object(App\Modules\Custom\Employee\Controllers\CustomEmployeeController), 'show', Array)
+#13 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(512): Laravel\Lumen\Application->callControllerAction(Array)
+#14 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(497): Laravel\Lumen\Application->callActionOnArrayBasedRoute(Array)
+#15 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(394): Laravel\Lumen\Application->handleFoundRoute(Array)
+#16 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(650): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#17 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(400): Laravel\Lumen\Application->sendThroughPipeline(Array, Object(Closure))
+#18 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(341): Laravel\Lumen\Application->dispatch(Object(Illuminate\Http\Request))
+#19 /var/www/html/lumen_test/public/index.php(29): Laravel\Lumen\Application->run(Object(Illuminate\Http\Request))
+#20 {main}  
+[2016-11-01 09:55:08] lumen.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Employee' not found' in /var/www/html/lumen_test/app/Console/Commands/custom.php:27
+Stack trace:
+#0 /var/www/html/lumen_test/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(55): Laravel\Lumen\Application->handleShutdown()
+#1 [internal function]: Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#2 {main}  

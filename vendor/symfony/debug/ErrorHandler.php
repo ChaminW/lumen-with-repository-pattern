@@ -55,13 +55,13 @@ class ErrorHandler
         E_WARNING => 'Warning',
         E_USER_WARNING => 'User Warning',
         E_COMPILE_WARNING => 'Compile Warning',
-        E_CORE_WARNING => 'Core Warning',
+        E_CORE_WARNING => 'Employee Warning',
         E_USER_ERROR => 'User Error',
         E_RECOVERABLE_ERROR => 'Catchable Fatal Error',
         E_COMPILE_ERROR => 'Compile Error',
         E_PARSE => 'Parse Error',
         E_ERROR => 'Error',
-        E_CORE_ERROR => 'Core Error',
+        E_CORE_ERROR => 'Employee Error',
     );
 
     private $loggers = array(

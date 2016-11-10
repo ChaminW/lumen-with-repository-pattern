@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Console\Commands;
-use App\Employee;
+use App\Modules\Base\Employee\Models\Employee;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
 class custom extends Command {

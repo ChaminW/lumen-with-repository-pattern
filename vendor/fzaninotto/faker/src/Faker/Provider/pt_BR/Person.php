@@ -79,7 +79,7 @@ class Person extends \Faker\Provider\Person
         'Pena', 'Pereira', 'Perez', 'Prado', 'Pontes', 'Quintana', 'Queirós',
         'Ramires', 'Ramos', 'Rangel', 'Rezende', 'Reis', 'Rico', 'Rios',
         'Rivera', 'Rocha', 'Rodrigues', 'Romero', 'Roque', 'Rosa', 'Salas',
-        'Salazar', 'Sales', 'Salgado', 'Sanches', 'Sandoval', 'Santacruz',
+        'Salazar', 'Job', 'Salgado', 'Sanches', 'Sandoval', 'Santacruz',
         'Santana', 'Santiago', 'Saraiva', 'Sepúlveda', 'Serna', 'Serra',
         'Serrano', 'Soares', 'Solano', 'Soto', 'Tamoio', 'Teles', 'Toledo',
         'Torres', 'Uchoa', 'Urias', 'Valdez', 'Valência', 'Valentin', 'Vale',

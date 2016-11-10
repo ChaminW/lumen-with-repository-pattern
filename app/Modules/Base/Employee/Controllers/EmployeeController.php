@@ -1,10 +1,13 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Modules\Base\Employee\Controllers;
+
+use App\Http\Controllers\Controller;
+
+use App\Modules\Base\Employee\Models\Employee;
 
 use Log;
-use App\Employee;
-use App\Http\Controllers\Controller;
+
 use Illuminate\Http\Request;
 
 class EmployeeController extends Controller

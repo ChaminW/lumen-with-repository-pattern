@@ -702,7 +702,7 @@ class Matchers
     }
 
     /**
-     * Wraps <code>$matcher</code> with {@link Hamcrest\Core\IsEqual)
+     * Wraps <code>$matcher</code> with {@link Hamcrest\Employee\IsEqual)
      * if it's not a matcher and the XPath in <code>count()</code>
      * if it's an integer.
      */

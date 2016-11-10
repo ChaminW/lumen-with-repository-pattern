@@ -27,6 +27,9 @@ $app = new Laravel\Lumen\Application(
 
  $app->withEloquent();
 
+
+
+
 /*
 |--------------------------------------------------------------------------
 | Register Container Bindings
@@ -59,9 +62,9 @@ $app->singleton(
 |
 */
 
- $app->middleware([
-    App\Http\Middleware\AuthMiddleware::class
- ]);
+// $app->middleware([
+//    App\Http\Middleware\AuthMiddleware::class
+// ]);
 
 // $app->routeMiddleware([
 //     'auth' => App\Http\Middleware\Authenticate::class,
@@ -83,6 +86,10 @@ $app->singleton(
 
  $app->register(App\Providers\EventServiceProvider::class);
 
+$app->configure('module');
+$app->register(App\Modules\ModulesServiceProvider::class);
+
+
 /*
 |--------------------------------------------------------------------------
 | Load The Application Routes
@@ -96,6 +103,7 @@ $app->singleton(
 
 $app->group(['namespace' => 'App\Http\Controllers'], function ($app) {
     require __DIR__.'/../routes/web.php';
+
 });
 
 

@@ -15,7 +15,7 @@ class JobAddedEvent extends Event
      */
     public function __construct(Job $job)
     {
-        echo "fine";
+//      echo "fine";
         $this->job = $job;
 
     }

@@ -11,6 +11,7 @@
 |
 */
 
+
 $app->get('/', function () use ($app) {
     return 'Lumen RESTful API example';
 });
@@ -33,7 +34,7 @@ $app->get('/', function () use ($app) {
 //$app->delete('api/user/{id}','UserController@deleteUser');
 
 
-$app->group(['prefix' => 'api/user','namespace' => 'App\Http\Controllers'], function($app) {
+    $app->group(['prefix' => 'api/user','namespace' => 'App\Http\Controllers'], function($app) {
     $app->get('/', 'UserController@show');
     $app->get('/{id}', 'UserController@getUser');
     $app->post('/', 'UserController@createUser');
@@ -41,21 +42,21 @@ $app->group(['prefix' => 'api/user','namespace' => 'App\Http\Controllers'], func
     $app->delete('/{id}', 'UserController@deleteUser');
 });
 
-$app->group(['prefix' => 'api/employee','namespace' => 'App\Http\Controllers'], function($app) {
-    $app->get('/', 'EmployeeController@show');
-    $app->get('/{id}', 'EmployeeController@getEmployee');
-    $app->post('/', 'EmployeeController@createEmployee');
-    $app->put('/{id}', 'EmployeeController@updateEmployee');
-    $app->delete('/{id}', 'EmployeeController@deleteEmployee');
-});
+//$app->group(['prefix' => 'api/employee','namespace' => 'App\Http\Controllers'], function($app) {
+//    $app->get('/', 'EmployeeController@show');
+//    $app->get('/{id}', 'EmployeeController@getEmployee');
+//    $app->post('/', 'EmployeeController@createEmployee');
+//    $app->put('/{id}', 'EmployeeController@updateEmployee');
+//    $app->delete('/{id}', 'EmployeeController@deleteEmployee');
+//});
 
-$app->group(['prefix' => 'api/job','namespace' => 'App\Http\Controllers'], function($app) {
-    $app->get('/', 'JobController@show');
-    $app->get('/{id}', 'JobController@getJob');
-    $app->post('/', 'JobController@createJob');
-    $app->put('/{id}', 'JobController@updateJob');
-    $app->delete('/{id}', 'JobController@deleteJob');
-});
+//$app->group(['prefix' => 'api/job','namespace' => 'App\Http\Controllers'], function($app) {
+//    $app->get('/', 'JobController@show');
+//    $app->get('/{id}', 'JobController@getJob');
+//    $app->post('/', 'JobController@createJob');
+//    $app->put('/{id}', 'JobController@updateJob');
+//    $app->delete('/{id}', 'JobController@deleteJob');
+//});
 
 //*************************************************************************
 // dynamic routing
